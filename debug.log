@@ -1,0 +1,1416 @@
+[2021-11-13 09:03:14,166]: 127.0.0.1:1234 "GET /g.txt HTTP/1.1" 
+[2021-11-13 11:52:58,088]: 127.0.0.1:1234 "503" 
+[2021-11-13 11:54:18,982]: 127.0.0.1:12345 "503" 
+[2021-11-13 12:00:27,056]: 127.0.0.1:1234 "503" 
+[2021-11-13 12:05:58,364]: 127.0.0.1:12345 "201 /r.txt HTTP/1.1" 
+[2021-11-13 12:06:39,347]: 127.0.0.1:12345 "200 /sankalp.txt HTTP/1.1" 
+[2021-11-13 12:08:33,358]: 127.0.0.1:12345 "GET /ttt.txt HTTP/1.1" 
+[2021-11-13 12:33:31,278]: 127.0.0.1:1234 "GET /ttt.txt HTTP/1.1" 
+[2021-11-13 13:47:22,575]: 127.0.0.1:1234 "405" 
+[2021-11-13 13:47:39,955]: 127.0.0.1:1234 "405" 
+[2021-11-13 14:18:00,008]: 127.0.0.1:1234 "405" 
+[2021-11-13 14:57:25,121]: 127.0.0.1:1234 "GET /favicon.ico HTTP/1.1" 
+[2021-11-13 15:00:47,090]: 127.0.0.1:12345 "503" 
+[2021-11-13 15:01:16,360]: 127.0.0.1:1234 "503" 
+[2021-11-13 15:04:42,913]: 127.0.0.1:1234 "503" 
+[2021-11-13 15:05:07,727]: 127.0.0.1:12345 "503" 
+[2021-11-13 15:06:02,008]: 127.0.0.1:12345 "503" 
+[2021-11-13 15:18:31,888]: 127.0.0.1:1234 "405" 
+[2021-11-13 15:19:25,899]: 127.0.0.1:1234 "405" 
+[2021-11-13 15:20:56,729]: 127.0.0.1:12345 "405" 
+[2021-11-13 15:22:13,022]: 127.0.0.1:1234 "405" 
+[2021-11-13 15:27:23,555]: 127.0.0.1:12345 "503" 
+[2021-11-13 15:29:08,150]: 127.0.0.1:1234 "503" 
+[2021-11-13 15:35:27,803]: 127.0.0.1:12345 "503 Service Unavailable" 
+[2021-11-13 15:36:27,287]: 127.0.0.1:1234 "503 Service Unavailable" 
+[2021-11-13 15:37:32,511]: 127.0.0.1:12345 "503 Service Unavailable" 
+[2021-11-13 15:56:05,013]: 127.0.0.1:1234 "503 Service Unavailable" 
+[2021-11-13 15:59:53,980]: 127.0.0.1:1234 "405" 
+[2021-11-13 16:00:42,764]: 127.0.0.1:1234 "GET /test.txt HTTP/1.1" 
+[2021-11-13 17:29:13,301]: 127.0.0.1:1234 "PUT /q.txt HTTP/1.1"201 created 
+[2021-11-13 17:29:13,301]: 127.0.0.1:1234 "PUT HTTP/1.1 q.txt"201 created 
+[2021-11-13 17:32:35,662]: 127.0.0.1:1234 "PUT /q.txt HTTP/1.1"200 OK 
+[2021-11-13 17:32:35,662]: 127.0.0.1:1234 "PUT HTTP/1.1 q.txt"200 OK 
+[2021-11-13 17:37:19,558]: 127.0.0.1:1234 "PUT /q.txt HTTP/1.1"200 OK 
+[2021-11-13 17:37:19,565]: 127.0.0.1:1234 "PUT HTTP/1.1 q.txt"200 OK 
+[2021-11-13 21:13:14,343]: 127.0.0.1:1234 "GET /me.txt HTTP/1.1" 
+[2021-11-13 21:58:31,720]: 127.0.0.1:1234 " PUT /abhay.txt HTTP/1.1"200 OK
+[2021-11-13 21:58:31,723]: 127.0.0.1:1234 "PUT HTTP/1.1 abhay.txt"200 OK 
+[2021-11-13 22:32:54,891]: 127.0.0.1:1234 "GET /index.html HTTP/1.1" 
+[2021-11-13 22:32:55,024]: 127.0.0.1:1234 "GET /favicon.ico HTTP/1.1" 
+[2021-11-13 23:57:37,866]: 127.0.0.1:12345 "GET /test.png HTTP/1.1"200 OK  
+[2021-11-13 23:57:37,867]: 127.0.0.1:12345 "GET HTTP/1.1 test.png"200 OK 
+[2021-11-14 00:02:14,374]: 127.0.0.1:1234 "GET /test.png HTTP/1.1"200 OK PostmanRuntime/7.28.4 
+[2021-11-14 00:02:14,374]: 127.0.0.1:1234 "GET HTTP/1.1 test.png"200 OK 
+[2021-11-14 00:04:06,914]: 127.0.0.1:1234 "GET /dj.mp3 HTTP/1.1"200 OK PostmanRuntime/7.28.4 
+[2021-11-14 00:04:06,914]: 127.0.0.1:1234 "GET HTTP/1.1 dj.mp3"200 OK 
+[2021-11-14 00:07:51,604]: 127.0.0.1:12345 "HEAD /dj.mp3 HTTP/1.1"200 OKPostmanRuntime/7.28.4 
+[2021-11-14 00:07:51,604]: 127.0.0.1:12345 "HEAD HTTP/1.1 dj.mp3"200 OK 
+[2021-11-14 00:09:46,625]: 127.0.0.1:12345 "HEAD /test.png HTTP/1.1"200 OKPostmanRuntime/7.28.4 
+[2021-11-14 00:09:46,625]: 127.0.0.1:12345 "HEAD HTTP/1.1 test.png"200 OK 
+[2021-11-14 00:09:49,997]: 127.0.0.1:12345 "HEAD /test.png HTTP/1.1"200 OKPostmanRuntime/7.28.4 
+[2021-11-14 00:09:49,997]: 127.0.0.1:12345 "HEAD HTTP/1.1 test.png"200 OK 
+[2021-11-14 00:10:39,681]: 127.0.0.1:12345 "HEAD /test.png HTTP/1.1"200 OKPostmanRuntime/7.28.4 
+[2021-11-14 00:10:39,681]: 127.0.0.1:12345 "HEAD HTTP/1.1 test.png"200 OK 
+[2021-11-14 00:11:16,470]: 127.0.0.1:1234 "HEAD /test.png HTTP/1.1"200 OKPostmanRuntime/7.28.4 
+[2021-11-14 00:11:16,479]: 127.0.0.1:1234 "HEAD HTTP/1.1 test.png"200 OK 
+[2021-11-14 00:12:51,214]: 127.0.0.1:12345 "HEAD /sankalp.png HTTP/1.1"200 OK PostmanRuntime/7.28.4 
+[2021-11-14 00:12:51,215]: 127.0.0.1:12345 "HEAD HTTP/1.1 sankalp.png"200 OK 
+[2021-11-14 00:43:03,156]: 127.0.0.1:1234 "COPY /test.png HTTP/1.1"405 Method Not Allowed 
+[2021-11-14 00:43:03,166]: 127.0.0.1:1234 "COPY HTTP/1.1 test.png"405 Method Not Allowed 
+[2021-11-14 00:44:26,758]: 127.0.0.1:12345 "GET /test.png HTTP/1.1"413 Request Entity Too Large 
+[2021-11-14 00:44:26,767]: 127.0.0.1:12345 "GET HTTP/1.1 test.png"413 Request Entity Too Large 
+[2021-11-14 00:50:01,709]: 127.0.0.1:1234 "503 Service Unavailable" 
+[2021-11-14 11:41:27,123]: 127.0.0.1:12345 "DELETE /old.txt HTTP/1.1"401 Unauthorised 
+[2021-11-14 11:41:27,125]: 127.0.0.1:12345 "DELETE HTTP/1.1 old.txt"401 Unauthorised 
+[2021-11-14 11:56:58,930]: 127.0.0.1:12345 "DELETE /old.mp3 HTTP/1.1"200 OK Basic 
+[2021-11-14 11:56:58,934]: 127.0.0.1:12345 "DELETE HTTP/1.1 old.mp3"200 OK 
+[2021-11-14 11:58:43,877]: 127.0.0.1:1234 "DELETE /old.txt HTTP/1.1"200 OK Basic 
+[2021-11-14 11:58:43,878]: 127.0.0.1:1234 "DELETE HTTP/1.1 old.txt"200 OK 
+[2021-11-14 12:04:02,705]: 127.0.0.1:12345 "DELETE /t.mp3 HTTP/1.1"200 OK PostmanRuntime/7.28.4 
+[2021-11-14 12:04:02,705]: 127.0.0.1:12345 "DELETE HTTP/1.1 t.mp3"200 OK 
+[2021-11-14 12:05:32,551]: 127.0.0.1:12345 "DELETE /try.txt HTTP/1.1"401 Unauthorised 
+[2021-11-14 12:05:32,557]: 127.0.0.1:12345 "DELETE HTTP/1.1 try.txt"401 Unauthorised 
+[2021-11-14 12:05:41,625]: 127.0.0.1:12345 "DELETE /try.txt HTTP/1.1"200 OK PostmanRuntime/7.28.4 
+[2021-11-14 12:05:41,625]: 127.0.0.1:12345 "DELETE HTTP/1.1 try.txt"200 OK 
+[2021-11-14 12:22:18,017]: 127.0.0.1:12345 "GET /tr.txt HTTP/1.1"404 Not Found 
+[2021-11-14 12:22:18,017]: 127.0.0.1:12345 "GET HTTP/1.1 tr.txt"404 Not Found 
+[2021-11-14 13:35:01,796]: 127.0.0.1:1234 "GET HTTP/1.1 ef.txt"404 Not Found 
+[2021-11-14 13:35:01,796]: 127.0.0.1:1234 "ef.txt Not Found 
+[2021-11-14 13:35:01,796]: 127.0.0.1:1234 "GET /ef.txt HTTP/1.1"404 Not Found 
+[2021-11-14 14:32:50,665]: 127.0.0.1:12345 "test.png Accessed Successfully.
+[2021-11-14 14:32:50,695]: 127.0.0.1:12345 "GET HTTP/1.1 test.png"200 OK 
+[2021-11-14 14:32:50,695]: 127.0.0.1:12345 "GET /test.png HTTP/1.1"200 OK PostmanRuntime/7.28.4 
+[2021-11-14 14:52:52,026]: 127.0.0.1:1234 "r.txt File Deleted Successfully. 
+[2021-11-14 14:52:52,027]: 127.0.0.1:1234 "DELETE /r.txt HTTP/1.1"200 OK PostmanRuntime/7.28.4 
+[2021-11-14 14:52:52,027]: 127.0.0.1:1234 "DELETE HTTP/1.1 r.txt"200 OK 
+[2021-11-14 14:53:22,307]: 127.0.0.1:1234 "q.txt File is Unauthorized
+[2021-11-14 14:53:22,307]: 127.0.0.1:1234 "DELETE /q.txt HTTP/1.1"401 Unauthorised PostmanRuntime/7.28.4
+[2021-11-14 14:53:22,308]: 127.0.0.1:1234 "DELETE HTTP/1.1 q.txt"401 Unauthorised 
+[2021-11-14 14:53:41,386]: 127.0.0.1:1234 "DELETE HTTP/1.1 r.txt"404 Not Found 
+[2021-11-14 14:53:41,459]: 127.0.0.1:1234 "r.txt File Not Found 
+[2021-11-14 14:53:41,459]: 127.0.0.1:1234 "DELETE /r.txt HTTP/1.1"404 Not Found PostmanRuntime/7.28.4 
+[2021-11-14 15:12:04,513]: 127.0.0.1:1234 "abhay1.txt File Created Successfully.
+[2021-11-14 15:12:04,513]: 127.0.0.1:1234 "PUT /abhay1.txt HTTP/1.1"201 created PostmanRuntime/7.28.4 
+[2021-11-14 15:12:04,513]: 127.0.0.1:1234 "PUT HTTP/1.1 abhay1.txt"201 created 
+[2021-11-14 15:13:23,714]: 127.0.0.1:1234 "abhay1.txt File Created Successfully.
+[2021-11-14 15:13:23,715]: 127.0.0.1:1234 "PUT /abhay1.txt HTTP/1.1"201 created PostmanRuntime/7.28.4 
+[2021-11-14 15:13:23,715]: 127.0.0.1:1234 "PUT HTTP/1.1 abhay1.txt"201 created 
+[2021-11-14 15:17:37,884]: 127.0.0.1:12345 "abhay1.png File Created Successfully.
+[2021-11-14 15:17:37,884]: 127.0.0.1:12345 "PUT /abhay1.png HTTP/1.1"201 created PostmanRuntime/7.28.4 
+[2021-11-14 15:17:37,884]: 127.0.0.1:12345 "PUT HTTP/1.1 abhay1.png"201 created 
+[2021-11-14 15:18:21,613]: 127.0.0.1:12345 "abhay1(1).png File renamed & Created Successfully.
+[2021-11-14 15:18:21,622]: 127.0.0.1:12345 "POST /abhay1(1).png HTTP/1.1"200 OK PostmanRuntime/7.28.4 
+[2021-11-14 15:18:21,622]: 127.0.0.1:12345 "POST HTTP/1.1 abhay1(1).png"200 OK 
+[2021-11-14 16:35:26,116]: 127.0.0.1:12345 "HTTP/1.1 This version is Not Supported.
+[2021-11-14 16:35:26,117]: 127.0.0.1:12345 "GET /abhay1.png HTTP/1.1"505 Version Not Supported 
+[2021-11-14 16:35:26,117]: 127.0.0.1:12345 "GET HTTP/1.1 abhay1.png"505 Version Not Supported 
+[2021-11-14 16:36:31,970]: 127.0.0.1:1234 "HTTP/1.1 This version is Not Supported.
+[2021-11-14 16:36:31,971]: 127.0.0.1:1234 "GET /abhay1.png HTTP/1.1"505 Version Not Supported PostmanRuntime/7.28.4 
+[2021-11-14 16:36:31,971]: 127.0.0.1:1234 "GET HTTP/1.1 abhay1.png"505 Version Not Supported 
+[2021-11-14 16:39:00,695]: 127.0.0.1:12345 "HTTP/1.1 This version is Not Supported.
+[2021-11-14 16:39:00,696]: 127.0.0.1:12345 "GET /abhay1.png HTTP/1.1"505 Version Not Supported PostmanRuntime/7.28.4 
+[2021-11-14 16:39:00,696]: 127.0.0.1:12345 "GET HTTP/1.1 abhay1.png"505 Version Not Supported 
+[2021-11-14 19:43:34,731]: 127.0.0.1:9990 "DELETE HTTP/1.1 create.txt"404 Not Found 
+[2021-11-14 19:43:34,732]: 127.0.0.1:9990 "create.txt File Not Found 
+[2021-11-14 19:43:34,732]: 127.0.0.1:9990 "DELETE /create.txt HTTP/1.1"404 Not Found PostmanRuntime/7.28.4 
+[2021-11-14 19:43:34,732]: 127.0.0.1:9990 "s.txt Accessed Successfully.
+[2021-11-14 19:43:34,732]: 127.0.0.1:9990 "sahil.mp3 Head Successful.
+[2021-11-14 19:43:34,733]: 127.0.0.1:9990 "GET /s.txt HTTP/1.1"200 OK PostmanRuntime/7.28.4 
+[2021-11-14 19:43:34,733]: 127.0.0.1:9990 "dhruv.png File is Unauthorized
+[2021-11-14 19:43:34,733]: 127.0.0.1:9990 "HEAD /sahil.mp3 HTTP/1.1"200 OK PostmanRuntime/7.28.4 
+[2021-11-14 19:43:34,734]: 127.0.0.1:9990 "GET HTTP/1.1 s.txt"200 OK 
+[2021-11-14 19:43:34,734]: 127.0.0.1:9990 "testing3.txt File Created Successfully.
+[2021-11-14 19:43:34,734]: 127.0.0.1:9990 "DELETE /dhruv.png HTTP/1.1"401 Unauthorised PostmanRuntime/7.28.4
+[2021-11-14 19:43:34,734]: 127.0.0.1:9990 "HEAD HTTP/1.1 sahil.mp3"200 OK 
+[2021-11-14 19:43:34,735]: 127.0.0.1:9990 "PUT /testing3.txt HTTP/1.1"201 created */* 
+[2021-11-14 19:43:34,736]: 127.0.0.1:9990 "PUT HTTP/1.1 testing3.txt"201 created 
+[2021-11-14 19:43:34,736]: 127.0.0.1:9990 "COPY This version is Not Supported.
+[2021-11-14 19:43:34,735]: 127.0.0.1:9990 "DELETE HTTP/1.1 dhruv.png"401 Unauthorised 
+[2021-11-14 19:43:34,736]: 127.0.0.1:9990 "HTTP/2.0 This version is Not Supported.
+[2021-11-14 19:43:34,736]: 127.0.0.1:9990 "COPY /arya.txt HTTP/1.1"405 Method Not Allowed PostmanRuntime/7.28.4
+[2021-11-14 19:43:34,737]: 127.0.0.1:9990 "GET /s.txt HTTP/2.0"505 Version Not Supported PostmanRuntime/7.28.4 
+[2021-11-14 19:43:34,737]: 127.0.0.1:9990 "COPY HTTP/1.1 arya.txt"405 Method Not Allowed 
+[2021-11-14 19:43:34,737]: 127.0.0.1:9990 "GET HTTP/2.0 s.txt"505 Version Not Supported 
+[2021-11-14 19:43:34,737]: 127.0.0.1:9990 "testing4(2).txt File renamed & Created Successfully.
+[2021-11-14 19:43:34,737]: 127.0.0.1:9990 "POST /testing4(2).txt HTTP/1.1"200 OK */* 
+[2021-11-14 19:43:34,738]: 127.0.0.1:9990 "POST HTTP/1.1 testing4(2).txt"200 OK 
+[2021-11-14 19:58:04,620]: 127.0.0.1:9999 "s.txt Accessed Successfully.
+[2021-11-14 19:58:04,621]: 127.0.0.1:9999 "sahil.mp3 Head Successful.
+[2021-11-14 19:58:04,621]: 127.0.0.1:9999 "GET /s.txt HTTP/1.1"200 OK Self_Testing 
+[2021-11-14 19:58:04,621]: 127.0.0.1:9999 "HEAD /sahil.mp3 HTTP/1.1"200 OK PostmanRuntime/7.28.4 
+[2021-11-14 19:58:04,622]: 127.0.0.1:9999 "DELETE HTTP/1.1 create.txt"404 Not Found 
+[2021-11-14 19:58:04,623]: 127.0.0.1:9999 "GET HTTP/1.1 s.txt"200 OK 
+[2021-11-14 19:58:04,623]: 127.0.0.1:9999 "dhruv.png File is Unauthorized
+[2021-11-14 19:58:04,623]: 127.0.0.1:9999 "HEAD HTTP/1.1 sahil.mp3"200 OK 
+[2021-11-14 19:58:04,623]: 127.0.0.1:9999 "create.txt File Not Found 
+[2021-11-14 19:58:04,624]: 127.0.0.1:9999 "testing3.txt File Created Successfully.
+[2021-11-14 19:58:04,625]: 127.0.0.1:9999 "DELETE /dhruv.png HTTP/1.1"401 Unauthorised PostmanRuntime/7.28.4
+[2021-11-14 19:58:04,625]: 127.0.0.1:9999 "COPY This version is Not Supported.
+[2021-11-14 19:58:04,625]: 127.0.0.1:9999 "DELETE /create.txt HTTP/1.1"404 Not Found PostmanRuntime/7.28.4 
+[2021-11-14 19:58:04,626]: 127.0.0.1:9999 "PUT /testing3.txt HTTP/1.1"201 created */* 
+[2021-11-14 19:58:04,626]: 127.0.0.1:9999 "DELETE HTTP/1.1 dhruv.png"401 Unauthorised 
+[2021-11-14 19:58:04,626]: 127.0.0.1:9999 "COPY /arya.txt HTTP/1.1"405 Method Not Allowed PostmanRuntime/7.28.4
+[2021-11-14 19:58:04,626]: 127.0.0.1:9999 "HTTP/2.0 This version is Not Supported.
+[2021-11-14 19:58:04,626]: 127.0.0.1:9999 "PUT HTTP/1.1 testing3.txt"201 created 
+[2021-11-14 19:58:04,627]: 127.0.0.1:9999 "COPY HTTP/1.1 arya.txt"405 Method Not Allowed 
+[2021-11-14 19:58:04,627]: 127.0.0.1:9999 "GET /s.txt HTTP/2.0"505 Version Not Supported PostmanRuntime/7.28.4 
+[2021-11-14 19:58:04,627]: 127.0.0.1:9999 "testing4(1).txt File renamed & Created Successfully.
+[2021-11-14 19:58:04,627]: 127.0.0.1:9999 "GET HTTP/2.0 s.txt"505 Version Not Supported 
+[2021-11-14 19:58:04,628]: 127.0.0.1:9999 "POST /testing4(1).txt HTTP/1.1"200 OK */* 
+[2021-11-14 19:58:04,628]: 127.0.0.1:9999 "POST HTTP/1.1 testing4(1).txt"200 OK 
+[2021-11-14 20:08:19,662]: 127.0.0.1:9990 "arya.txt File Created Successfully.
+[2021-11-14 20:08:19,662]: 127.0.0.1:9990 "PUT /arya.txt HTTP/1.1"201 created PostmanRuntime/7.28.4 
+[2021-11-14 20:08:19,662]: 127.0.0.1:9990 "PUT HTTP/1.1 arya.txt"201 created 
+[2021-11-14 20:09:51,448]: 127.0.0.1:9990 "arya.txt File Created Successfully.
+[2021-11-14 20:09:51,448]: 127.0.0.1:9990 "PUT /arya.txt HTTP/1.1"201 created */* 
+[2021-11-14 20:09:51,449]: 127.0.0.1:9990 "PUT HTTP/1.1 arya.txt"201 created 
+[2021-11-14 20:09:55,815]: 127.0.0.1:9990 "arya.txt File Created Successfully.
+[2021-11-14 20:09:55,816]: 127.0.0.1:9990 "PUT /arya.txt HTTP/1.1"201 created */* 
+[2021-11-14 20:09:55,816]: 127.0.0.1:9990 "PUT HTTP/1.1 arya.txt"201 created 
+[2021-11-14 20:14:27,637]: 127.0.0.1:9999 "aryan.txt File Created Successfully.
+[2021-11-14 20:14:27,637]: 127.0.0.1:9999 "PUT /aryan.txt HTTP/1.1"201 created */* 
+[2021-11-14 20:14:27,637]: 127.0.0.1:9999 "PUT HTTP/1.1 aryan.txt"201 created 
+[2021-11-14 20:16:37,934]: 127.0.0.1:9999 "aryan.txt File Created Successfully.
+[2021-11-14 20:16:37,934]: 127.0.0.1:9999 "PUT /aryan.txt HTTP/1.1"201 created PostmanRuntime/7.28.4 
+[2021-11-14 20:16:37,934]: 127.0.0.1:9999 "PUT HTTP/1.1 aryan.txt"201 created 
+[2021-11-14 20:20:04,297]: 127.0.0.1:9999 "aryan.txt File Created Successfully.
+[2021-11-14 20:20:04,298]: 127.0.0.1:9999 "PUT /aryan.txt HTTP/1.1"201 created PostmanRuntime/7.28.4 
+[2021-11-14 20:20:04,298]: 127.0.0.1:9999 "PUT HTTP/1.1 aryan.txt"201 created 
+[2021-11-14 20:23:38,425]: 127.0.0.1:9999 "s.txt Accessed Successfully.
+[2021-11-14 20:23:38,425]: 127.0.0.1:9999 "GET /s.txt HTTP/1.1"200 OK Self_Testing 
+[2021-11-14 20:23:38,426]: 127.0.0.1:9999 "GET HTTP/1.1 s.txt"200 OK 
+[2021-11-14 20:23:38,428]: 127.0.0.1:9999 "sahil.mp3 Head Successful.
+[2021-11-14 20:23:38,429]: 127.0.0.1:9999 "HEAD /sahil.mp3 HTTP/1.1"200 OK Self_Testing 
+[2021-11-14 20:23:38,429]: 127.0.0.1:9999 "DELETE HTTP/1.1 create.txt"404 Not Found 
+[2021-11-14 20:23:38,430]: 127.0.0.1:9999 "HEAD HTTP/1.1 sahil.mp3"200 OK 
+[2021-11-14 20:23:38,430]: 127.0.0.1:9999 "create.txt File Not Found 
+[2021-11-14 20:23:38,430]: 127.0.0.1:9999 "dhruv.png File is Unauthorized
+[2021-11-14 20:23:38,430]: 127.0.0.1:9999 "DELETE /create.txt HTTP/1.1"404 Not Found Self_Testing 
+[2021-11-14 20:23:38,431]: 127.0.0.1:9999 "DELETE /dhruv.png HTTP/1.1"401 Unauthorised Self_Testing
+[2021-11-14 20:23:38,431]: 127.0.0.1:9999 "nishal.txt File Created Successfully.
+[2021-11-14 20:23:38,431]: 127.0.0.1:9999 "DELETE HTTP/1.1 dhruv.png"401 Unauthorised 
+[2021-11-14 20:23:38,431]: 127.0.0.1:9999 "PUT /nishal.txt HTTP/1.1"201 created PostmanRuntime/7.28.4 
+[2021-11-14 20:23:38,431]: 127.0.0.1:9999 "PUT HTTP/1.1 nishal.txt"201 created 
+[2021-11-14 20:23:38,432]: 127.0.0.1:9999 "HTTP/2.0 This version is Not Supported.
+[2021-11-14 20:23:38,433]: 127.0.0.1:9999 "COPY This version is Not Supported.
+[2021-11-14 20:23:38,433]: 127.0.0.1:9999 "GET /s.txt HTTP/2.0"505 Version Not Supported Self_Testing 
+[2021-11-14 20:23:38,433]: 127.0.0.1:9999 "COPY /arya.txt HTTP/1.1"405 Method Not Allowed Self_Testing
+[2021-11-14 20:23:38,433]: 127.0.0.1:9999 "GET HTTP/2.0 s.txt"505 Version Not Supported 
+[2021-11-14 20:23:38,433]: 127.0.0.1:9999 "COPY HTTP/1.1 arya.txt"405 Method Not Allowed 
+[2021-11-14 20:23:38,434]: 127.0.0.1:9999 "testing4(2).txt File renamed & Created Successfully.
+[2021-11-14 20:23:38,434]: 127.0.0.1:9999 "POST /testing4(2).txt HTTP/1.1"200 OK */* 
+[2021-11-14 20:23:38,434]: 127.0.0.1:9999 "POST HTTP/1.1 testing4(2).txt"200 OK 
+[2021-11-14 20:24:53,533]: 127.0.0.1:9999 "s.txt Accessed Successfully.
+[2021-11-14 20:24:53,534]: 127.0.0.1:9999 "sahil.mp3 Head Successful.
+[2021-11-14 20:24:53,563]: 127.0.0.1:9999 "HEAD /sahil.mp3 HTTP/1.1"200 OK Self_Testing 
+[2021-11-14 20:24:53,535]: 127.0.0.1:9999 "dhruv.png File is Unauthorized
+[2021-11-14 20:24:53,537]: 127.0.0.1:9999 "nishal.txt File Created Successfully.
+[2021-11-14 20:24:53,538]: 127.0.0.1:9999 "COPY This version is Not Supported.
+[2021-11-14 20:24:53,563]: 127.0.0.1:9999 "COPY /arya.txt HTTP/1.1"405 Method Not Allowed Self_Testing
+[2021-11-14 20:24:53,538]: 127.0.0.1:9999 "testing4(3).txt File renamed & Created Successfully.
+[2021-11-14 20:24:53,562]: 127.0.0.1:9999 "GET /s.txt HTTP/1.1"200 OK Self_Testing 
+[2021-11-14 20:24:53,534]: 127.0.0.1:9999 "DELETE HTTP/1.1 create.txt"404 Not Found 
+[2021-11-14 20:24:53,563]: 127.0.0.1:9999 "HEAD HTTP/1.1 sahil.mp3"200 OK 
+[2021-11-14 20:24:53,563]: 127.0.0.1:9999 "DELETE /dhruv.png HTTP/1.1"401 Unauthorised Self_Testing
+[2021-11-14 20:24:53,563]: 127.0.0.1:9999 "PUT /nishal.txt HTTP/1.1"201 created PostmanRuntime/7.28.4 
+[2021-11-14 20:24:53,538]: 127.0.0.1:9999 "HTTP/2.0 This version is Not Supported.
+[2021-11-14 20:24:53,563]: 127.0.0.1:9999 "COPY HTTP/1.1 arya.txt"405 Method Not Allowed 
+[2021-11-14 20:24:53,563]: 127.0.0.1:9999 "POST /testing4(3).txt HTTP/1.1"200 OK */* 
+[2021-11-14 20:24:53,563]: 127.0.0.1:9999 "GET HTTP/1.1 s.txt"200 OK 
+[2021-11-14 20:24:53,564]: 127.0.0.1:9999 "create.txt File Not Found 
+[2021-11-14 20:24:53,564]: 127.0.0.1:9999 "DELETE HTTP/1.1 dhruv.png"401 Unauthorised 
+[2021-11-14 20:24:53,564]: 127.0.0.1:9999 "PUT HTTP/1.1 nishal.txt"201 created 
+[2021-11-14 20:24:53,564]: 127.0.0.1:9999 "GET /s.txt HTTP/2.0"505 Version Not Supported Self_Testing 
+[2021-11-14 20:24:53,564]: 127.0.0.1:9999 "POST HTTP/1.1 testing4(3).txt"200 OK 
+[2021-11-14 20:24:53,564]: 127.0.0.1:9999 "DELETE /create.txt HTTP/1.1"404 Not Found Self_Testing 
+[2021-11-14 20:24:53,564]: 127.0.0.1:9999 "GET HTTP/2.0 s.txt"505 Version Not Supported 
+[2021-11-14 20:27:32,958]: 127.0.0.1:9999 "Dubey.txt File Created Successfully.
+[2021-11-14 20:27:32,958]: 127.0.0.1:9999 "POST /Dubey.txt HTTP/1.1"201 created PostmanRuntime/7.28.4 
+[2021-11-14 20:27:32,958]: 127.0.0.1:9999 "POST HTTP/1.1 Dubey.txt"201 created 
+[2021-11-14 20:30:01,178]: 127.0.0.1:9999 "s.txt Accessed Successfully.
+[2021-11-14 20:30:01,179]: 127.0.0.1:9999 "GET /s.txt HTTP/1.1"200 OK Self_Testing 
+[2021-11-14 20:30:01,179]: 127.0.0.1:9999 "GET HTTP/1.1 s.txt"200 OK 
+[2021-11-14 20:30:01,180]: 127.0.0.1:9999 "DELETE HTTP/1.1 create.txt"404 Not Found 
+[2021-11-14 20:30:01,180]: 127.0.0.1:9999 "sahil.mp3 Head Successful.
+[2021-11-14 20:30:01,180]: 127.0.0.1:9999 "create.txt File Not Found 
+[2021-11-14 20:30:01,181]: 127.0.0.1:9999 "HEAD /sahil.mp3 HTTP/1.1"200 OK Self_Testing 
+[2021-11-14 20:30:01,181]: 127.0.0.1:9999 "DELETE /create.txt HTTP/1.1"404 Not Found Self_Testing 
+[2021-11-14 20:30:01,182]: 127.0.0.1:9999 "HEAD HTTP/1.1 sahil.mp3"200 OK 
+[2021-11-14 20:30:01,182]: 127.0.0.1:9999 "nishal.txt File Created Successfully.
+[2021-11-14 20:30:01,182]: 127.0.0.1:9999 "dhruv.png File is Unauthorized
+[2021-11-14 20:30:01,183]: 127.0.0.1:9999 "PUT /nishal.txt HTTP/1.1"201 created Self_Testing 
+[2021-11-14 20:30:01,183]: 127.0.0.1:9999 "trust.txt File Created Successfully.
+[2021-11-14 20:30:01,183]: 127.0.0.1:9999 "DELETE /dhruv.png HTTP/1.1"401 Unauthorised Self_Testing
+[2021-11-14 20:30:01,184]: 127.0.0.1:9999 "PUT HTTP/1.1 nishal.txt"201 created 
+[2021-11-14 20:30:01,184]: 127.0.0.1:9999 "POST /trust.txt HTTP/1.1"201 created Self_Testing 
+[2021-11-14 20:30:01,184]: 127.0.0.1:9999 "COPY This version is Not Supported.
+[2021-11-14 20:30:01,184]: 127.0.0.1:9999 "DELETE HTTP/1.1 dhruv.png"401 Unauthorised 
+[2021-11-14 20:30:01,184]: 127.0.0.1:9999 "HTTP/2.0 This version is Not Supported.
+[2021-11-14 20:30:01,184]: 127.0.0.1:9999 "POST HTTP/1.1 trust.txt"201 created 
+[2021-11-14 20:30:01,185]: 127.0.0.1:9999 "COPY /arya.txt HTTP/1.1"405 Method Not Allowed Self_Testing
+[2021-11-14 20:30:01,185]: 127.0.0.1:9999 "GET /s.txt HTTP/2.0"505 Version Not Supported Self_Testing 
+[2021-11-14 20:30:01,185]: 127.0.0.1:9999 "COPY HTTP/1.1 arya.txt"405 Method Not Allowed 
+[2021-11-14 20:30:01,185]: 127.0.0.1:9999 "GET HTTP/2.0 s.txt"505 Version Not Supported 
+[2021-11-14 20:52:27,886]: 127.0.0.1:9999 "test.png Accessed Successfully.
+[2021-11-14 20:52:27,886]: 127.0.0.1:9999 "GET HTTP/1.1 test.png"200 OK 
+[2021-11-14 20:52:27,887]: 127.0.0.1:9999 "GET /test.png HTTP/1.1"200 OK localhost:9999 
+[2021-11-14 20:52:28,189]: 127.0.0.1:9999 "GET HTTP/1.1 favicon.ico"404 Not Found 
+[2021-11-14 20:52:28,190]: 127.0.0.1:9999 "favicon.ico File Not Found 
+[2021-11-14 20:52:28,190]: 127.0.0.1:9999 "GET /favicon.ico HTTP/1.1"404 Not Found sec-ch-ua: 
+[2021-11-14 21:42:00,655]: 127.0.0.1:9990 "test.png Accessed Successfully.
+[2021-11-14 21:42:00,655]: 127.0.0.1:9990 "GET HTTP/1.1 test.png"200 OK 
+[2021-11-14 21:42:00,655]: 127.0.0.1:9990 "GET /test.png HTTP/1.1"200 OK PostmanRuntime/7.28.4 
+[2021-11-14 21:43:44,376]: 127.0.0.1:9999 "test.png Head Successful.
+[2021-11-14 21:43:44,376]: 127.0.0.1:9999 "HEAD /test.png HTTP/1.1"200 OK PostmanRuntime/7.28.4 
+[2021-11-14 21:43:44,376]: 127.0.0.1:9999 "HEAD HTTP/1.1 test.png"200 OK 
+[2021-11-14 22:00:29,881]: 127.0.0.1:9990 "test.png Accessed Successfully.
+[2021-11-14 22:00:29,881]: 127.0.0.1:9990 "GET HTTP/1.1 test.png"200 OK 
+[2021-11-14 22:00:29,882]: 127.0.0.1:9990 "GET /test.png HTTP/1.1"200 OK PostmanRuntime/7.28.4 
+[2021-11-14 22:05:54,229]: 127.0.0.1:9999 "test.png Accessed Successfully.
+[2021-11-14 22:05:54,229]: 127.0.0.1:9999 "GET HTTP/1.1 test.png"200 OK 
+[2021-11-14 22:05:54,230]: 127.0.0.1:9999 "GET /test.png HTTP/1.1"200 OK PostmanRuntime/7.28.4 
+[2021-11-14 22:22:14,712]: 127.0.0.1:9990 "test.png Accessed Successfully.
+[2021-11-14 22:22:14,712]: 127.0.0.1:9990 "GET HTTP/1.1 test.png"200 OK 
+[2021-11-14 22:22:14,712]: 127.0.0.1:9990 "GET /test.png HTTP/1.1"200 OK PostmanRuntime/7.28.4 
+[2021-11-14 22:23:12,088]: 127.0.0.1:9990 "test.png Head Successful.
+[2021-11-14 22:23:12,088]: 127.0.0.1:9990 "HEAD /test.png HTTP/1.1"200 OK PostmanRuntime/7.28.4 
+[2021-11-14 22:23:12,088]: 127.0.0.1:9990 "HEAD HTTP/1.1 test.png"200 OK 
+[2021-11-14 22:25:44,975]: 127.0.0.1:9990 "sankalp.txt File Deleted Successfully. 
+[2021-11-14 22:25:44,975]: 127.0.0.1:9990 "DELETE /sankalp.txt HTTP/1.1"200 OK PostmanRuntime/7.28.4 
+[2021-11-14 22:25:44,975]: 127.0.0.1:9990 "DELETE HTTP/1.1 sankalp.txt"200 OK 
+[2021-11-14 22:30:08,796]: 127.0.0.1:9990 "dj.mp3 Accessed Successfully.
+[2021-11-14 22:30:08,797]: 127.0.0.1:9990 "GET HTTP/1.1 dj.mp3"200 OK 
+[2021-11-14 22:30:08,797]: 127.0.0.1:9990 "GET /dj.mp3 HTTP/1.1"200 OK 127.0.0.1:9990 
+[2021-11-14 22:30:09,310]: 127.0.0.1:9990 "try.mp4 Accessed Successfully.
+[2021-11-14 22:30:09,310]: 127.0.0.1:9990 "GET HTTP/1.1 try.mp4"200 OK 
+[2021-11-14 22:30:09,311]: 127.0.0.1:9990 "GET /try.mp4 HTTP/1.1"200 OK 127.0.0.1:9990 
+[2021-11-14 22:30:09,401]: 127.0.0.1:9990 "try.mp4 Accessed Successfully.
+[2021-11-14 22:30:09,401]: 127.0.0.1:9990 "GET HTTP/1.1 try.mp4"200 OK 
+[2021-11-14 22:30:09,402]: 127.0.0.1:9990 "GET /try.mp4 HTTP/1.1"200 OK 127.0.0.1:9990 
+[2021-11-14 22:30:09,885]: 127.0.0.1:9990 "GET HTTP/1.1 index.html"404 Not Found 
+[2021-11-14 22:30:09,885]: 127.0.0.1:9990 "index.html File Not Found 
+[2021-11-14 22:30:09,885]: 127.0.0.1:9990 "GET /index.html HTTP/1.1"404 Not Found sec-ch-ua: 
+[2021-11-14 22:30:09,993]: 127.0.0.1:9990 "GET HTTP/1.1 favicon.ico"404 Not Found 
+[2021-11-14 22:30:09,993]: 127.0.0.1:9990 "favicon.ico File Not Found 
+[2021-11-14 22:30:09,993]: 127.0.0.1:9990 "GET /favicon.ico HTTP/1.1"404 Not Found sec-ch-ua: 
+[2021-11-14 22:30:10,280]: 127.0.0.1:9990 "GET HTTP/1.1 game.txt"404 Not Found 
+[2021-11-14 22:30:10,280]: 127.0.0.1:9990 "game.txt File Not Found 
+[2021-11-14 22:30:10,281]: 127.0.0.1:9990 "GET /game.txt HTTP/1.1"404 Not Found sec-ch-ua: 
+[2021-11-14 22:30:10,647]: 127.0.0.1:9990 "7333.jpg Accessed Successfully.
+[2021-11-14 22:30:10,647]: 127.0.0.1:9990 "GET /7333.jpg HTTP/1.1"200 OK 127.0.0.1:9990
+[2021-11-14 22:30:10,647]: 127.0.0.1:9990 "GET HTTP/1.1 7333.jpg"200 OK 
+[2021-11-14 22:30:11,176]: 127.0.0.1:9990 "wireshark.odt Accessed Successfully.
+[2021-11-14 22:30:11,176]: 127.0.0.1:9990 "GET HTTP/1.1 wireshark.odt"200 OK 
+[2021-11-14 22:30:11,176]: 127.0.0.1:9990 "GET /wireshark.odt HTTP/1.1"200 OK 127.0.0.1:9990 
+[2021-11-14 22:30:12,178]: 127.0.0.1:9990 "test.png Accessed Successfully.
+[2021-11-14 22:30:12,178]: 127.0.0.1:9990 "GET HTTP/1.1 test.png"200 OK 
+[2021-11-14 22:30:12,178]: 127.0.0.1:9990 "GET /test.png HTTP/1.1"200 OK 127.0.0.1:9990 
+[2021-11-14 22:33:13,668]: 127.0.0.1:9990 "test.png Accessed Successfully.
+[2021-11-14 22:33:13,668]: 127.0.0.1:9990 "GET HTTP/1.1 test.png"200 OK 
+[2021-11-14 22:33:13,668]: 127.0.0.1:9990 "GET /test.png HTTP/1.1"200 OK PostmanRuntime/7.28.4 
+[2021-11-14 23:42:45,215]: 127.0.0.1:9990 "test.png Accessed Successfully.
+[2021-11-14 23:42:45,215]: 127.0.0.1:9990 "GET HTTP/1.1 test.png"200 OK 
+[2021-11-14 23:42:45,215]: 127.0.0.1:9990 "GET /test.png HTTP/1.1"200 OK PostmanRuntime/7.28.4 
+[2021-11-17 12:59:14,962]: 127.0.0.1:8888 "DELETE HTTP/1.1 create.txt"404 Not Found 
+[2021-11-17 12:59:14,962]: 127.0.0.1:8888 "dhruv.png File is Unauthorized
+[2021-11-17 12:59:14,964]: 127.0.0.1:8888 "nishal.txt File Created Successfully.
+[2021-11-17 12:59:14,965]: 127.0.0.1:8888 "COPY This version is Not Supported.
+[2021-11-17 12:59:15,031]: 127.0.0.1:8888 "COPY /arya.txt HTTP/1.1"405 Method Not Allowed Self_Testing
+[2021-11-17 12:59:14,968]: 127.0.0.1:8888 "HTTP/2.0 This version is Not Supported.
+[2021-11-17 12:59:14,985]: 127.0.0.1:8888 "s.txt Accessed Successfully.
+[2021-11-17 12:59:14,989]: 127.0.0.1:8888 "sahil.mp3 Head Successful.
+[2021-11-17 12:59:15,030]: 127.0.0.1:8888 "create.txt File Not Found 
+[2021-11-17 12:59:15,031]: 127.0.0.1:8888 "DELETE /dhruv.png HTTP/1.1"401 Unauthorised Self_Testing
+[2021-11-17 12:59:15,031]: 127.0.0.1:8888 "PUT /nishal.txt HTTP/1.1"201 created Self_Testing 
+[2021-11-17 12:59:14,968]: 127.0.0.1:8888 "trust(3).txt File renamed & Created Successfully.
+[2021-11-17 12:59:15,031]: 127.0.0.1:8888 "COPY HTTP/1.1 arya.txt"405 Method Not Allowed 
+[2021-11-17 12:59:15,031]: 127.0.0.1:8888 "GET /s.txt HTTP/2.0"505 Version Not Supported Self_Testing 
+[2021-11-17 12:59:15,031]: 127.0.0.1:8888 "GET /s.txt HTTP/1.1"200 OK Self_Testing 
+[2021-11-17 12:59:15,031]: 127.0.0.1:8888 "HEAD /sahil.mp3 HTTP/1.1"200 OK Self_Testing 
+[2021-11-17 12:59:15,031]: 127.0.0.1:8888 "DELETE /create.txt HTTP/1.1"404 Not Found Self_Testing 
+[2021-11-17 12:59:15,031]: 127.0.0.1:8888 "DELETE HTTP/1.1 dhruv.png"401 Unauthorised 
+[2021-11-17 12:59:15,032]: 127.0.0.1:8888 "PUT HTTP/1.1 nishal.txt"201 created 
+[2021-11-17 12:59:15,032]: 127.0.0.1:8888 "POST /trust(3).txt HTTP/1.1"200 OK Self_Testing 
+[2021-11-17 12:59:15,032]: 127.0.0.1:8888 "POST HTTP/1.1 trust(3).txt"200 OK 
+[2021-11-17 12:59:15,032]: 127.0.0.1:8888 "GET HTTP/1.1 s.txt"200 OK 
+[2021-11-17 12:59:15,032]: 127.0.0.1:8888 "HEAD HTTP/1.1 sahil.mp3"200 OK 
+[2021-11-17 12:59:15,032]: 127.0.0.1:8888 "GET HTTP/2.0 s.txt"505 Version Not Supported 
+[2021-11-17 13:10:39,889]: 127.0.0.1:8888 "sahil.mp3 Head Successful.
+[2021-11-17 13:10:39,889]: 127.0.0.1:8888 "s.txt Accessed Successfully.
+[2021-11-17 13:10:39,889]: 127.0.0.1:8888 "HEAD /sahil.mp3 HTTP/1.1"200 OK Self_Testing 
+[2021-11-17 13:10:39,889]: 127.0.0.1:8888 "GET /s.txt HTTP/1.1"200 OK Self_Testing 
+[2021-11-17 13:10:39,889]: 127.0.0.1:8888 "HEAD HTTP/1.1 sahil.mp3"200 OK 
+[2021-11-17 13:10:39,890]: 127.0.0.1:8888 "DELETE HTTP/1.1 create.txt"404 Not Found 
+[2021-11-17 13:10:39,890]: 127.0.0.1:8888 "GET HTTP/1.1 s.txt"200 OK 
+[2021-11-17 13:10:39,890]: 127.0.0.1:8888 "dhruv.png File is Unauthorized
+[2021-11-17 13:10:39,891]: 127.0.0.1:8888 "create.txt File Not Found 
+[2021-11-17 13:10:39,891]: 127.0.0.1:8888 "DELETE /dhruv.png HTTP/1.1"401 Unauthorised Self_Testing
+[2021-11-17 13:10:39,891]: 127.0.0.1:8888 "nishal.txt File Created Successfully.
+[2021-11-17 13:10:39,892]: 127.0.0.1:8888 "DELETE /create.txt HTTP/1.1"404 Not Found Self_Testing 
+[2021-11-17 13:10:39,893]: 127.0.0.1:8888 "COPY This version is Not Supported.
+[2021-11-17 13:10:39,892]: 127.0.0.1:8888 "PUT /nishal.txt HTTP/1.1"201 created Self_Testing 
+[2021-11-17 13:10:39,892]: 127.0.0.1:8888 "DELETE HTTP/1.1 dhruv.png"401 Unauthorised 
+[2021-11-17 13:10:39,893]: 127.0.0.1:8888 "COPY /arya.txt HTTP/1.1"405 Method Not Allowed Self_Testing
+[2021-11-17 13:10:39,893]: 127.0.0.1:8888 "PUT HTTP/1.1 nishal.txt"201 created 
+[2021-11-17 13:10:39,893]: 127.0.0.1:8888 "COPY HTTP/1.1 arya.txt"405 Method Not Allowed 
+[2021-11-17 13:10:39,894]: 127.0.0.1:8888 "HTTP/2.0 This version is Not Supported.
+[2021-11-17 13:10:39,894]: 127.0.0.1:8888 "GET /s.txt HTTP/2.0"505 Version Not Supported Self_Testing 
+[2021-11-17 13:10:39,894]: 127.0.0.1:8888 "GET HTTP/2.0 s.txt"505 Version Not Supported 
+[2021-11-17 13:10:39,895]: 127.0.0.1:8888 "trust(4).txt File renamed & Created Successfully.
+[2021-11-17 13:10:39,895]: 127.0.0.1:8888 "POST /trust(4).txt HTTP/1.1"200 OK Self_Testing 
+[2021-11-17 13:10:39,895]: 127.0.0.1:8888 "POST HTTP/1.1 trust(4).txt"200 OK 
+[2021-11-17 13:31:17,027]: 127.0.0.1:8888 "sahil.mp3 Head Successful.
+[2021-11-17 13:31:17,027]: 127.0.0.1:8888 "HEAD /sahil.mp3 HTTP/1.1"200 OK Self_Testing 
+[2021-11-17 13:31:17,028]: 127.0.0.1:8888 "HEAD HTTP/1.1 sahil.mp3"200 OK 
+[2021-11-17 13:31:17,033]: 127.0.0.1:8888 "s.txt Accessed Successfully.
+[2021-11-17 13:31:17,033]: 127.0.0.1:8888 "DELETE HTTP/1.1 create.txt"404 Not Found 
+[2021-11-17 13:31:17,033]: 127.0.0.1:8888 "dhruv.png File is Unauthorized
+[2021-11-17 13:31:17,033]: 127.0.0.1:8888 "GET /s.txt HTTP/1.1"200 OK Self_Testing 
+[2021-11-17 13:31:17,034]: 127.0.0.1:8888 "create.txt File Not Found 
+[2021-11-17 13:31:17,034]: 127.0.0.1:8888 "DELETE /dhruv.png HTTP/1.1"401 Unauthorised Self_Testing
+[2021-11-17 13:31:17,035]: 127.0.0.1:8888 "DELETE HTTP/1.1 dhruv.png"401 Unauthorised 
+[2021-11-17 13:31:17,035]: 127.0.0.1:8888 "GET HTTP/1.1 s.txt"200 OK 
+[2021-11-17 13:31:17,035]: 127.0.0.1:8888 "DELETE /create.txt HTTP/1.1"404 Not Found Self_Testing 
+[2021-11-17 13:31:17,035]: 127.0.0.1:8888 "COPY This version is Not Supported.
+[2021-11-17 13:31:17,036]: 127.0.0.1:8888 "nishal.txt File Created Successfully.
+[2021-11-17 13:31:17,036]: 127.0.0.1:8888 "HTTP/2.0 This version is Not Supported.
+[2021-11-17 13:31:17,037]: 127.0.0.1:8888 "GET /s.txt HTTP/2.0"505 Version Not Supported Self_Testing 
+[2021-11-17 13:31:17,036]: 127.0.0.1:8888 "trust(5).txt File renamed & Created Successfully.
+[2021-11-17 13:31:17,037]: 127.0.0.1:8888 "PUT /nishal.txt HTTP/1.1"201 created Self_Testing 
+[2021-11-17 13:31:17,036]: 127.0.0.1:8888 "COPY /arya.txt HTTP/1.1"405 Method Not Allowed Self_Testing
+[2021-11-17 13:31:17,037]: 127.0.0.1:8888 "GET HTTP/2.0 s.txt"505 Version Not Supported 
+[2021-11-17 13:31:17,037]: 127.0.0.1:8888 "POST /trust(5).txt HTTP/1.1"200 OK Self_Testing 
+[2021-11-17 13:31:17,037]: 127.0.0.1:8888 "POST HTTP/1.1 trust(5).txt"200 OK 
+[2021-11-17 13:31:17,037]: 127.0.0.1:8888 "COPY HTTP/1.1 arya.txt"405 Method Not Allowed 
+[2021-11-17 13:31:17,037]: 127.0.0.1:8888 "PUT HTTP/1.1 nishal.txt"201 created 
+[2021-11-17 13:32:06,377]: 127.0.0.1:8888 "GET HTTP/1.1 index.html"404 Not Found 
+[2021-11-17 13:32:06,377]: 127.0.0.1:8888 "index.html File Not Found 
+[2021-11-17 13:32:06,377]: 127.0.0.1:8888 "GET /index.html HTTP/1.1"404 Not Found sec-ch-ua: 
+[2021-11-17 13:32:06,479]: 127.0.0.1:8888 "GET HTTP/1.1 favicon.ico"404 Not Found 
+[2021-11-17 13:32:06,479]: 127.0.0.1:8888 "favicon.ico File Not Found 
+[2021-11-17 13:32:06,479]: 127.0.0.1:8888 "GET /favicon.ico HTTP/1.1"404 Not Found sec-ch-ua: 
+[2021-11-17 13:32:06,804]: 127.0.0.1:8888 "GET HTTP/1.1 game.txt"404 Not Found 
+[2021-11-17 13:32:06,804]: 127.0.0.1:8888 "game.txt File Not Found 
+[2021-11-17 13:32:06,804]: 127.0.0.1:8888 "GET /game.txt HTTP/1.1"404 Not Found sec-ch-ua: 
+[2021-11-17 23:45:25,114]: 127.0.0.1:8888 "s.txt Accessed Successfully.
+[2021-11-17 23:45:25,114]: 127.0.0.1:8888 "GET /s.txt HTTP/1.1"200 OK Self_Testing 
+[2021-11-17 23:45:25,115]: 127.0.0.1:8888 "GET HTTP/1.1 s.txt"200 OK 
+[2021-11-17 23:45:25,114]: 127.0.0.1:8888 "DELETE HTTP/1.1 create.txt"404 Not Found 
+[2021-11-17 23:45:25,115]: 127.0.0.1:8888 "dhruv.png File is Unauthorized
+[2021-11-17 23:45:25,115]: 127.0.0.1:8888 "sahil.mp3 Head Successful.
+[2021-11-17 23:45:25,115]: 127.0.0.1:8888 "create.txt File Not Found 
+[2021-11-17 23:45:25,116]: 127.0.0.1:8888 "DELETE /dhruv.png HTTP/1.1"401 Unauthorised Self_Testing
+[2021-11-17 23:45:25,116]: 127.0.0.1:8888 "HEAD /sahil.mp3 HTTP/1.1"200 OK Self_Testing 
+[2021-11-17 23:45:25,116]: 127.0.0.1:8888 "DELETE /create.txt HTTP/1.1"404 Not Found Self_Testing 
+[2021-11-17 23:45:25,117]: 127.0.0.1:8888 "DELETE HTTP/1.1 dhruv.png"401 Unauthorised 
+[2021-11-17 23:45:25,118]: 127.0.0.1:8888 "nishal.txt File Created Successfully.
+[2021-11-17 23:45:25,118]: 127.0.0.1:8888 "HEAD HTTP/1.1 sahil.mp3"200 OK 
+[2021-11-17 23:45:25,118]: 127.0.0.1:8888 "PUT /nishal.txt HTTP/1.1"201 created Self_Testing 
+[2021-11-17 23:45:25,119]: 127.0.0.1:8888 "COPY This version is Not Supported.
+[2021-11-17 23:45:25,119]: 127.0.0.1:8888 "HTTP/2.0 This version is Not Supported.
+[2021-11-17 23:45:25,119]: 127.0.0.1:8888 "PUT HTTP/1.1 nishal.txt"201 created 
+[2021-11-17 23:45:25,119]: 127.0.0.1:8888 "COPY /arya.txt HTTP/1.1"405 Method Not Allowed Self_Testing
+[2021-11-17 23:45:25,120]: 127.0.0.1:8888 "GET /s.txt HTTP/2.0"505 Version Not Supported Self_Testing 
+[2021-11-17 23:45:25,120]: 127.0.0.1:8888 "COPY HTTP/1.1 arya.txt"405 Method Not Allowed 
+[2021-11-17 23:45:25,120]: 127.0.0.1:8888 "GET HTTP/2.0 s.txt"505 Version Not Supported 
+[2021-11-17 23:45:25,120]: 127.0.0.1:8888 "trust(8).txt File renamed & Created Successfully.
+[2021-11-17 23:45:25,121]: 127.0.0.1:8888 "POST /trust(8).txt HTTP/1.1"200 OK Self_Testing 
+[2021-11-17 23:45:25,121]: 127.0.0.1:8888 "POST HTTP/1.1 trust(8).txt"200 OK 
+[2021-11-17 23:46:46,856]: 127.0.0.1:8888 "GET HTTP/1.1 index.html"404 Not Found 
+[2021-11-17 23:46:46,885]: 127.0.0.1:8888 "index.html File Not Found 
+[2021-11-17 23:46:46,885]: 127.0.0.1:8888 "GET /index.html HTTP/1.1"404 Not Found sec-ch-ua: 
+[2021-11-17 23:46:47,277]: 127.0.0.1:8888 "GET HTTP/1.1 game.txt"404 Not Found 
+[2021-11-17 23:46:47,277]: 127.0.0.1:8888 "game.txt File Not Found 
+[2021-11-17 23:46:47,277]: 127.0.0.1:8888 "GET /game.txt HTTP/1.1"404 Not Found sec-ch-ua: 
+[2021-12-03 20:29:08,029]: 127.0.0.1:8888 "create.png File Modified Successfully.
+[2021-12-03 20:29:08,053]: 127.0.0.1:8888 "PUT /create.png HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-03 20:29:08,053]: 127.0.0.1:8888 "PUT HTTP/1.1 create.png"200 
+[2021-12-03 20:33:02,328]: 127.0.0.1:8889 "create.png File Modified Successfully.
+[2021-12-03 20:33:02,328]: 127.0.0.1:8889 "PUT /create.png HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-03 20:33:02,328]: 127.0.0.1:8889 "PUT HTTP/1.1 create.png"200 
+[2021-12-03 21:37:58,400]: 127.0.0.1:8888 "create.png File Modified Successfully.
+[2021-12-03 21:37:58,400]: 127.0.0.1:8888 "PUT /create.png HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-03 21:37:58,400]: 127.0.0.1:8888 "PUT HTTP/1.1 create.png"200 
+[2021-12-03 21:42:11,237]: 127.0.0.1:8889 "create.png File Modified Successfully.
+[2021-12-03 21:42:11,237]: 127.0.0.1:8889 "PUT /create.png HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-03 21:42:11,237]: 127.0.0.1:8889 "PUT HTTP/1.1 create.png"200 
+[2021-12-03 21:43:40,545]: 127.0.0.1:8889 "PUT HTTP/1.1 create.png"411 
+[2021-12-03 21:43:40,545]: 127.0.0.1:8889 "create.png Content-Length header is required 
+[2021-12-03 21:43:40,545]: 127.0.0.1:8889 "PUT /create.png HTTP/1.1"411 PostmanRuntime/7.28.4 
+[2021-12-03 21:44:45,309]: 127.0.0.1:8888 "create.png File Modified Successfully.
+[2021-12-03 21:44:45,310]: 127.0.0.1:8888 "PUT /create.png HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-03 21:44:45,310]: 127.0.0.1:8888 "PUT HTTP/1.1 create.png"200 
+[2021-12-03 21:45:01,883]: 127.0.0.1:8888 "create.png File Modified Successfully.
+[2021-12-03 21:45:01,884]: 127.0.0.1:8888 "PUT /create.png HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-03 21:45:01,884]: 127.0.0.1:8888 "PUT HTTP/1.1 create.png"200 
+[2021-12-03 21:45:08,295]: 127.0.0.1:8888 "PUT HTTP/1.1 create.png"411 
+[2021-12-03 21:45:08,295]: 127.0.0.1:8888 "create.png Content-Length header is required 
+[2021-12-03 21:45:08,295]: 127.0.0.1:8888 "PUT /create.png HTTP/1.1"411 PostmanRuntime/7.28.4 
+[2021-12-03 21:45:14,722]: 127.0.0.1:8888 "create.png File Modified Successfully.
+[2021-12-03 21:45:14,722]: 127.0.0.1:8888 "PUT /create.png HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-03 21:45:14,723]: 127.0.0.1:8888 "PUT HTTP/1.1 create.png"200 
+[2021-12-03 21:47:17,415]: 127.0.0.1:8889 "create.png File Modified Successfully.
+[2021-12-03 21:47:17,416]: 127.0.0.1:8889 "PUT /create.png HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-03 21:47:17,416]: 127.0.0.1:8889 "PUT HTTP/1.1 create.png"200 
+[2021-12-03 21:47:27,727]: 127.0.0.1:8889 "PUT HTTP/1.1 create.png"411 
+[2021-12-03 21:47:27,728]: 127.0.0.1:8889 "create.png Content-Length header is required 
+[2021-12-03 21:47:27,728]: 127.0.0.1:8889 "PUT /create.png HTTP/1.1"411 PostmanRuntime/7.28.4 
+[2021-12-03 21:47:49,982]: 127.0.0.1:8888 "create.png File Modified Successfully.
+[2021-12-03 21:47:49,983]: 127.0.0.1:8888 "PUT /create.png HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-03 21:47:49,983]: 127.0.0.1:8888 "PUT HTTP/1.1 create.png"200 
+[2021-12-03 21:48:17,446]: 127.0.0.1:8889 "create.png File Modified Successfully.
+[2021-12-03 21:48:17,446]: 127.0.0.1:8889 "PUT /create.png HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-03 21:48:17,446]: 127.0.0.1:8889 "PUT HTTP/1.1 create.png"200 
+[2021-12-03 21:48:41,480]: 127.0.0.1:8889 "PUT HTTP/1.1 create.png"411 
+[2021-12-03 21:48:41,480]: 127.0.0.1:8889 "create.png Content-Length header is required 
+[2021-12-03 21:48:41,480]: 127.0.0.1:8889 "PUT /create.png HTTP/1.1"411 PostmanRuntime/7.28.4 
+[2021-12-03 21:52:49,160]: 127.0.0.1:8888 "Requested File new.png was Forbidden
+[2021-12-03 21:52:49,160]: 127.0.0.1:8888 "PUT /new.png HTTP/1.1"403 PostmanRuntime/7.28.4 
+[2021-12-03 21:52:49,160]: 127.0.0.1:8888 "PUT HTTP/1.1 new.png"403 
+[2021-12-03 21:54:38,608]: 127.0.0.1:8888 "Requested File new.png was Forbidden
+[2021-12-03 21:54:38,608]: 127.0.0.1:8888 "PUT /new.png HTTP/1.1"403 PostmanRuntime/7.28.4 
+[2021-12-03 21:54:38,608]: 127.0.0.1:8888 "PUT HTTP/1.1 new.png"403 
+[2021-12-03 21:54:52,497]: 127.0.0.1:8888 "Requested File new.png was Forbidden
+[2021-12-03 21:54:52,497]: 127.0.0.1:8888 "PUT /new.png HTTP/1.1"403 PostmanRuntime/7.28.4 
+[2021-12-03 21:54:52,497]: 127.0.0.1:8888 "PUT HTTP/1.1 new.png"403 
+[2021-12-03 21:55:54,163]: 127.0.0.1:8888 "Requested File t.png was Forbidden
+[2021-12-03 21:55:54,163]: 127.0.0.1:8888 "PUT /t.png HTTP/1.1"403 PostmanRuntime/7.28.4 
+[2021-12-03 21:55:54,163]: 127.0.0.1:8888 "PUT HTTP/1.1 t.png"403 
+[2021-12-04 08:17:08,906]: 127.0.0.1:8887 "test.png Accessed Successfully.
+[2021-12-04 08:17:08,906]: 127.0.0.1:8887 "GET /test.png HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-04 08:17:08,906]: 127.0.0.1:8887 "GET HTTP/1.1 test.png"200 
+[2021-12-04 08:17:59,970]: 127.0.0.1:8887 "aryan.txt Accessed Successfully.
+[2021-12-04 08:17:59,970]: 127.0.0.1:8887 "GET /aryan.txt HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-04 08:17:59,970]: 127.0.0.1:8887 "GET HTTP/1.1 aryan.txt"200 
+[2021-12-04 08:18:58,024]: 127.0.0.1:8887 "nishal.txt Accessed Successfully.
+[2021-12-04 08:18:58,024]: 127.0.0.1:8887 "GET /nishal.txt HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-04 08:18:58,024]: 127.0.0.1:8887 "GET HTTP/1.1 nishal.txt"200 
+[2021-12-04 08:19:16,455]: 127.0.0.1:8887 "nishal.txt Accessed Successfully.
+[2021-12-04 08:19:16,455]: 127.0.0.1:8887 "GET /nishal.txt HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-04 08:19:16,455]: 127.0.0.1:8887 "GET HTTP/1.1 nishal.txt"200 
+[2021-12-04 08:20:08,549]: 127.0.0.1:8887 "aryan.txt Accessed Successfully.
+[2021-12-04 08:20:08,549]: 127.0.0.1:8887 "GET /aryan.txt HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-04 08:20:08,549]: 127.0.0.1:8887 "GET HTTP/1.1 aryan.txt"200 
+[2021-12-04 08:20:51,813]: 127.0.0.1:8887 "aryan.txt Accessed Successfully.
+[2021-12-04 08:20:51,813]: 127.0.0.1:8887 "GET /aryan.txt HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-04 08:20:51,813]: 127.0.0.1:8887 "GET HTTP/1.1 aryan.txt"200 
+[2021-12-04 08:21:18,954]: 127.0.0.1:8887 "aryan.txt Accessed Successfully.
+[2021-12-04 08:21:18,954]: 127.0.0.1:8887 "GET /aryan.txt HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-04 08:21:18,954]: 127.0.0.1:8887 "GET HTTP/1.1 aryan.txt"200 
+[2021-12-04 08:21:38,020]: 127.0.0.1:8887 "aryan.txt Accessed Successfully.
+[2021-12-04 08:21:38,021]: 127.0.0.1:8887 "GET /aryan.txt HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-04 08:21:38,021]: 127.0.0.1:8887 "GET HTTP/1.1 aryan.txt"200 
+[2021-12-04 08:55:56,779]: 127.0.0.1:8889 "aryan.txt Accessed Successfully.
+[2021-12-04 08:55:56,779]: 127.0.0.1:8889 "GET /aryan.txt HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-04 08:55:56,779]: 127.0.0.1:8889 "GET HTTP/1.1 aryan.txt"200 
+[2021-12-04 08:56:04,356]: 127.0.0.1:8889 "test.png Accessed Successfully.
+[2021-12-04 08:56:04,356]: 127.0.0.1:8889 "GET /test.png HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-04 08:56:04,356]: 127.0.0.1:8889 "GET HTTP/1.1 test.png"200 
+[2021-12-04 08:56:11,388]: 127.0.0.1:8889 "test.png Head Successful.
+[2021-12-04 08:56:11,389]: 127.0.0.1:8889 "HEAD /test.png HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-04 08:56:11,389]: 127.0.0.1:8889 "HEAD HTTP/1.1 test.png"200 
+[2021-12-04 08:56:48,101]: 127.0.0.1:8889 "arya.txt Incorrect Username or Password
+[2021-12-04 08:56:48,101]: 127.0.0.1:8889 "DELETE /arya.txt HTTP/1.1"401 PostmanRuntime/7.28.4
+[2021-12-04 08:56:48,101]: 127.0.0.1:8889 "DELETE HTTP/1.1 arya.txt"401 
+[2021-12-04 08:57:00,742]: 127.0.0.1:8889 "Requested File dj.txt was Forbidden
+[2021-12-04 08:57:00,742]: 127.0.0.1:8889 "DELETE /dj.txt HTTP/1.1"403 PostmanRuntime/7.28.4 
+[2021-12-04 08:57:00,742]: 127.0.0.1:8889 "DELETE HTTP/1.1 dj.txt"403 
+[2021-12-04 08:57:20,308]: 127.0.0.1:8889 "arya.txt File Deleted Successfully. 
+[2021-12-04 08:57:20,308]: 127.0.0.1:8889 "DELETE /arya.txt HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-04 08:57:20,308]: 127.0.0.1:8889 "DELETE HTTP/1.1 arya.txt"200 
+[2021-12-04 09:10:09,135]: 127.0.0.1:8888 "arya.tx This File format is not supported 
+[2021-12-04 09:10:09,135]: 127.0.0.1:8888 "GET /arya.tx HTTP/1.1"415 PostmanRuntime/7.28.4
+[2021-12-04 09:10:09,135]: 127.0.0.1:8888 "GET HTTP/1.1 arya.tx"415 
+[2021-12-04 09:10:19,903]: 127.0.0.1:8888 "GET HTTP/1.1 arya.txt"404 
+[2021-12-04 09:10:19,903]: 127.0.0.1:8888 "arya.txt File Not Found 
+[2021-12-04 09:10:19,903]: 127.0.0.1:8888 "GET /arya.txt HTTP/1.1"404 PostmanRuntime/7.28.4 
+[2021-12-04 09:10:26,431]: 127.0.0.1:8888 "arya.txtgrg This File format is not supported 
+[2021-12-04 09:10:26,431]: 127.0.0.1:8888 "GET /arya.txtgrg HTTP/1.1"415 PostmanRuntime/7.28.4
+[2021-12-04 09:10:26,431]: 127.0.0.1:8888 "GET HTTP/1.1 arya.txtgrg"415 
+[2021-12-04 09:10:32,358]: 127.0.0.1:8888 "arya.txtgrg This File format is not supported 
+[2021-12-04 09:10:32,358]: 127.0.0.1:8888 "HEAD /arya.txtgrg HTTP/1.1"415 PostmanRuntime/7.28.4
+[2021-12-04 09:10:32,359]: 127.0.0.1:8888 "HEAD HTTP/1.1 arya.txtgrg"415 
+[2021-12-04 09:11:02,059]: 127.0.0.1:8888 "arya.txtg This File format is not supported 
+[2021-12-04 09:11:02,060]: 127.0.0.1:8888 "HEAD /arya.txtg HTTP/1.1"415 PostmanRuntime/7.28.4
+[2021-12-04 09:11:02,060]: 127.0.0.1:8888 "HEAD HTTP/1.1 arya.txtg"415 
+[2021-12-04 09:11:10,352]: 127.0.0.1:8888 "arya.txtg This File format is not supported 
+[2021-12-04 09:11:10,352]: 127.0.0.1:8888 "GET /arya.txtg HTTP/1.1"415 PostmanRuntime/7.28.4
+[2021-12-04 09:11:10,352]: 127.0.0.1:8888 "GET HTTP/1.1 arya.txtg"415 
+[2021-12-04 09:20:59,118]: 127.0.0.1:8887 "GET HTTP/1.1 arya.txtg"404 
+[2021-12-04 09:20:59,118]: 127.0.0.1:8887 "arya.txtg File Not Found 
+[2021-12-04 09:20:59,118]: 127.0.0.1:8887 "GET /arya.txtg HTTP/1.1"404 PostmanRuntime/7.28.4 
+[2021-12-04 09:21:10,071]: 127.0.0.1:8887 "HEAD HTTP/1.1 arya.txtg"404 
+[2021-12-04 09:21:10,071]: 127.0.0.1:8887 "arya.txtg File Not Found 
+[2021-12-04 09:21:10,072]: 127.0.0.1:8887 "HEAD /arya.txtg HTTP/1.1"404 PostmanRuntime/7.28.4 
+[2021-12-04 09:36:21,726]: 127.0.0.1:8888 "arya.txtg This File format is not supported 
+[2021-12-04 09:36:21,726]: 127.0.0.1:8888 "HEAD /arya.txtg HTTP/1.1"415 PostmanRuntime/7.28.4
+[2021-12-04 09:36:21,726]: 127.0.0.1:8888 "HEAD HTTP/1.1 arya.txtg"415 
+[2021-12-04 09:36:28,445]: 127.0.0.1:8888 "HEAD HTTP/1.1 arya.txt"404 
+[2021-12-04 09:36:28,445]: 127.0.0.1:8888 "arya.txt File Not Found 
+[2021-12-04 09:36:28,445]: 127.0.0.1:8888 "HEAD /arya.txt HTTP/1.1"404 PostmanRuntime/7.28.4 
+[2021-12-04 09:36:41,827]: 127.0.0.1:8888 "test.png Head Successful.
+[2021-12-04 09:36:41,827]: 127.0.0.1:8888 "HEAD /test.png HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-04 09:36:41,827]: 127.0.0.1:8888 "HEAD HTTP/1.1 test.png"200 
+[2021-12-04 11:27:00,379]: 127.0.0.1:8888 "all.zip This File format is not supported 
+[2021-12-04 11:27:00,379]: 127.0.0.1:8888 "GET /all.zip HTTP/1.1"415 PostmanRuntime/7.28.4
+[2021-12-04 11:27:00,380]: 127.0.0.1:8888 "GET HTTP/1.1 all.zip"415 
+[2021-12-04 11:27:29,439]: 127.0.0.1:8888 "GET HTTP/1.1 sample.ppp"404 
+[2021-12-04 11:27:29,440]: 127.0.0.1:8888 "sample.ppp File Not Found 
+[2021-12-04 11:27:29,440]: 127.0.0.1:8888 "GET /sample.ppp HTTP/1.1"404 PostmanRuntime/7.28.4 
+[2021-12-04 11:27:35,998]: 127.0.0.1:8888 "GET HTTP/1.1 sample.txt"404 
+[2021-12-04 11:27:35,998]: 127.0.0.1:8888 "sample.txt File Not Found 
+[2021-12-04 11:27:35,998]: 127.0.0.1:8888 "GET /sample.txt HTTP/1.1"404 PostmanRuntime/7.28.4 
+[2021-12-04 11:32:24,884]: 127.0.0.1:8887 "Requested File dj.txt was Forbidden
+[2021-12-04 11:32:24,884]: 127.0.0.1:8887 "GET /dj.txt HTTP/1.1"403 PostmanRuntime/7.28.4 
+[2021-12-04 11:32:24,885]: 127.0.0.1:8887 "GET HTTP/1.1 dj.txt"403 
+[2021-12-04 11:34:17,114]: 127.0.0.1:8887 "test.png Accessed Successfully.
+[2021-12-04 11:34:17,114]: 127.0.0.1:8887 "GET /test.png HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-04 11:34:17,114]: 127.0.0.1:8887 "GET HTTP/1.1 test.png"200 
+[2021-12-04 11:34:24,082]: 127.0.0.1:8887 "Requested File dj.txt was Forbidden
+[2021-12-04 11:34:24,082]: 127.0.0.1:8887 "GET /dj.txt HTTP/1.1"403 PostmanRuntime/7.28.4 
+[2021-12-04 11:34:24,082]: 127.0.0.1:8887 "GET HTTP/1.1 dj.txt"403 
+[2021-12-04 11:34:36,057]: 127.0.0.1:8887 "df.frg This File format is not supported 
+[2021-12-04 11:34:36,057]: 127.0.0.1:8887 "GET /df.frg HTTP/1.1"415 PostmanRuntime/7.28.4
+[2021-12-04 11:34:36,057]: 127.0.0.1:8887 "GET HTTP/1.1 df.frg"415 
+[2021-12-04 11:34:50,440]: 127.0.0.1:8887 "all.zip This File format is not supported 
+[2021-12-04 11:34:50,441]: 127.0.0.1:8887 "GET /all.zip HTTP/1.1"415 PostmanRuntime/7.28.4
+[2021-12-04 11:34:50,441]: 127.0.0.1:8887 "GET HTTP/1.1 all.zip"415 
+[2021-12-04 11:45:44,620]: 127.0.0.1:8888 "test.png Accessed Successfully.
+[2021-12-04 11:45:44,621]: 127.0.0.1:8888 "GET /test.png HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-04 11:45:44,621]: 127.0.0.1:8888 "GET HTTP/1.1 test.png"200 
+[2021-12-04 11:47:32,378]: 127.0.0.1:8887 "test.png Accessed Successfully.
+[2021-12-04 11:47:32,378]: 127.0.0.1:8887 "GET /test.png HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-04 11:47:32,378]: 127.0.0.1:8887 "GET HTTP/1.1 test.png"200 
+[2021-12-04 11:47:52,741]: 127.0.0.1:8887 "GET HTTP/1.1 test/test.png"404 
+[2021-12-04 11:47:52,741]: 127.0.0.1:8887 "test/test.png File Not Found 
+[2021-12-04 11:47:52,741]: 127.0.0.1:8887 "GET /test/test.png HTTP/1.1"404 PostmanRuntime/7.28.4 
+[2021-12-04 11:49:18,169]: 127.0.0.1:8888 "GET HTTP/1.1 test/test.png"404 
+[2021-12-04 11:49:18,169]: 127.0.0.1:8888 "test/test.png File Not Found 
+[2021-12-04 11:49:18,169]: 127.0.0.1:8888 "GET /test/test.png HTTP/1.1"404 PostmanRuntime/7.28.4 
+[2021-12-04 11:54:48,164]: 127.0.0.1:8888 "test/test.png 5 URI too long 
+[2021-12-04 11:54:48,164]: 127.0.0.1:8888 "GET /test/test.png HTTP/1.1"414 PostmanRuntime/7.28.4
+[2021-12-04 11:54:48,164]: 127.0.0.1:8888 "GET HTTP/1.1 test/test.png"414 
+[2021-12-04 11:55:26,346]: 127.0.0.1:8888 "test.png 5 URI too long 
+[2021-12-04 11:55:26,346]: 127.0.0.1:8888 "GET /test.png HTTP/1.1"414 PostmanRuntime/7.28.4
+[2021-12-04 11:55:26,346]: 127.0.0.1:8888 "GET HTTP/1.1 test.png"414 
+[2021-12-04 11:56:02,076]: 127.0.0.1:8887 "test.png Accessed Successfully.
+[2021-12-04 11:56:02,077]: 127.0.0.1:8887 "GET /test.png HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-04 11:56:02,077]: 127.0.0.1:8887 "GET HTTP/1.1 test.png"200 
+[2021-12-04 12:10:14,652]: 127.0.0.1:8888 "s.txt Accessed Successfully.
+[2021-12-04 12:10:14,653]: 127.0.0.1:8888 "GET /s.txt HTTP/1.1"200 Self_Testing 
+[2021-12-04 12:10:14,653]: 127.0.0.1:8888 "GET HTTP/1.1 s.txt"200 
+[2021-12-04 12:10:14,653]: 127.0.0.1:8888 "sahil.mp3 Head Successful.
+[2021-12-04 12:10:14,653]: 127.0.0.1:8888 "HEAD /sahil.mp3 HTTP/1.1"200 Self_Testing 
+[2021-12-04 12:10:14,653]: 127.0.0.1:8888 "HEAD HTTP/1.1 sahil.mp3"200 
+[2021-12-04 12:10:14,654]: 127.0.0.1:8888 "DELETE HTTP/1.1 create.txt"404 
+[2021-12-04 12:10:14,654]: 127.0.0.1:8888 "create.txt File Not Found 
+[2021-12-04 12:10:14,654]: 127.0.0.1:8888 "DELETE /create.txt HTTP/1.1"404 Self_Testing 
+[2021-12-04 12:10:14,654]: 127.0.0.1:8888 "dhruv.png Incorrect Username or Password
+[2021-12-04 12:10:14,654]: 127.0.0.1:8888 "DELETE /dhruv.png HTTP/1.1"401 Self_Testing
+[2021-12-04 12:10:14,654]: 127.0.0.1:8888 "DELETE HTTP/1.1 dhruv.png"401 
+[2021-12-04 12:10:14,655]: 127.0.0.1:8888 "nishal.txt File Modified Successfully.
+[2021-12-04 12:10:14,655]: 127.0.0.1:8888 "PUT /nishal.txt HTTP/1.1"200 Self_Testing 
+[2021-12-04 12:10:14,655]: 127.0.0.1:8888 "PUT HTTP/1.1 nishal.txt"200 
+[2021-12-04 12:10:14,656]: 127.0.0.1:8888 "trust(1).txt File Modified and renamed Successfully.
+[2021-12-04 12:10:14,657]: 127.0.0.1:8888 "POST /trust(1).txt HTTP/1.1"200 Self_Testing 
+[2021-12-04 12:10:14,657]: 127.0.0.1:8888 "POST HTTP/1.1 trust(1).txt"200 
+[2021-12-04 12:10:14,657]: 127.0.0.1:8888 "COPY  Method is Not Allowed.
+[2021-12-04 12:10:14,657]: 127.0.0.1:8888 "COPY /arya.txt HTTP/1.1"405 Self_Testing
+[2021-12-04 12:10:14,657]: 127.0.0.1:8888 "COPY HTTP/1.1 arya.txt"405 
+[2021-12-04 12:10:14,657]: 127.0.0.1:8888 "HTTP/2.0  Version is not supported.
+[2021-12-04 12:10:14,657]: 127.0.0.1:8888 "GET /s.txt HTTP/2.0"505 Self_Testing
+[2021-12-04 12:10:14,657]: 127.0.0.1:8888 "GET HTTP/2.0 s.txt"505 
+[2021-12-04 12:43:15,432]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-04 12:43:15,432]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-04 12:43:15,432]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-04 12:44:06,856]: 127.0.0.1:8887 "3.txt Accessed Successfully.
+[2021-12-04 12:44:06,856]: 127.0.0.1:8887 "GET /3.txt HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-04 12:44:06,856]: 127.0.0.1:8887 "GET HTTP/1.1 3.txt"200 
+[2021-12-04 12:55:35,658]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-04 12:55:35,659]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-04 12:55:35,660]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-04 13:04:15,099]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-04 13:04:15,099]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-04 13:04:15,099]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-04 13:04:56,881]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-04 13:04:56,882]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-04 13:04:56,882]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-04 13:08:34,387]: 127.0.0.1:8888 "3.txt Head Successful.
+[2021-12-04 13:08:34,387]: 127.0.0.1:8888 "HEAD /3.txt HTTP/1.1"200 PostmanRuntime/7.28.4 
+[2021-12-04 13:08:34,387]: 127.0.0.1:8888 "HEAD HTTP/1.1 3.txt"200 
+[2021-12-04 13:15:17,783]: 127.0.0.1:8887 "3.txt Accessed Successfully.
+[2021-12-04 13:15:17,783]: 127.0.0.1:8887 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-04 13:15:17,783]: 127.0.0.1:8887 "GET HTTP/1.1 3.txt"200 
+[2021-12-04 13:15:17,784]: 127.0.0.1:8887 "3.txt Head Successful.
+[2021-12-04 13:15:17,784]: 127.0.0.1:8887 "HEAD /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-04 13:15:17,784]: 127.0.0.1:8887 "HEAD HTTP/1.1 3.txt"200 
+[2021-12-04 13:16:35,845]: 127.0.0.1:8887 "3.txt Accessed Successfully.
+[2021-12-04 13:16:35,846]: 127.0.0.1:8887 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-04 13:16:35,846]: 127.0.0.1:8887 "GET HTTP/1.1 3.txt"200 
+[2021-12-04 13:16:35,846]: 127.0.0.1:8887 "3.txt Head Successful.
+[2021-12-04 13:16:35,846]: 127.0.0.1:8887 "HEAD /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-04 13:16:35,846]: 127.0.0.1:8887 "HEAD HTTP/1.1 3.txt"200 
+[2021-12-04 13:17:33,995]: 127.0.0.1:8887 "3.txt Accessed Successfully.
+[2021-12-04 13:17:33,995]: 127.0.0.1:8887 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-04 13:17:33,995]: 127.0.0.1:8887 "GET HTTP/1.1 3.txt"200 
+[2021-12-04 13:17:33,996]: 127.0.0.1:8887 "3.txt Head Successful.
+[2021-12-04 13:17:33,996]: 127.0.0.1:8887 "HEAD /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-04 13:17:33,996]: 127.0.0.1:8887 "HEAD HTTP/1.1 3.txt"200 
+[2021-12-05 17:23:32,301]: 127.0.0.1:8888 "sample.png 5 URI too long 
+[2021-12-05 17:23:32,301]: 127.0.0.1:8888 "GET /sample.png HTTP/1.1"414 PostmanRuntime/7.28.4
+[2021-12-05 17:23:32,301]: 127.0.0.1:8888 "GET HTTP/1.1 sample.png"414 
+[2021-12-05 17:27:20,912]: 127.0.0.1:8888 "3.txt 5 URI too long 
+[2021-12-05 17:27:20,912]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"414 Self-Testing
+[2021-12-05 17:27:20,912]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"414 
+[2021-12-05 17:27:20,913]: 127.0.0.1:8888 "3.txt 5 URI too long 
+[2021-12-05 17:27:20,913]: 127.0.0.1:8888 "HEAD /3.txt HTTP/1.1"414 Self-Testing
+[2021-12-05 17:27:20,913]: 127.0.0.1:8888 "HEAD HTTP/1.1 3.txt"414 
+[2021-12-05 17:27:20,914]: 127.0.0.1:8888 "one.mp3 5 URI too long 
+[2021-12-05 17:27:20,914]: 127.0.0.1:8888 "DELETE /one.mp3 HTTP/1.1"414 Self-Testing
+[2021-12-05 17:27:20,914]: 127.0.0.1:8888 "DELETE HTTP/1.1 one.mp3"414 
+[2021-12-05 17:27:20,914]: 127.0.0.1:8888 "test.png 5 URI too long 
+[2021-12-05 17:27:20,914]: 127.0.0.1:8888 "DELETE /test.png HTTP/1.1"414 Self-Testing
+[2021-12-05 17:27:20,914]: 127.0.0.1:8888 "DELETE HTTP/1.1 test.png"414 
+[2021-12-05 17:27:20,915]: 127.0.0.1:8888 "dj.mp3 5 URI too long 
+[2021-12-05 17:27:20,915]: 127.0.0.1:8888 "GET /dj.mp3 HTTP/1.1"414 Self-Testing
+[2021-12-05 17:27:20,915]: 127.0.0.1:8888 "GET HTTP/1.1 dj.mp3"414 
+[2021-12-05 17:27:20,915]: 127.0.0.1:8888 "test.pp This File format is not supported 
+[2021-12-05 17:27:20,915]: 127.0.0.1:8888 "GET /test.pp HTTP/1.1"415 Self-Testing
+[2021-12-05 17:27:20,915]: 127.0.0.1:8888 "GET HTTP/1.1 test.pp"415 
+[2021-12-05 17:27:20,915]: 127.0.0.1:8888 "7333.jpg 5 URI too long 
+[2021-12-05 17:27:20,915]: 127.0.0.1:8888 "PATCH /7333.jpg HTTP/1.1"414 Self-Testing
+[2021-12-05 17:27:20,915]: 127.0.0.1:8888 "PATCH HTTP/1.1 7333.jpg"414 
+[2021-12-05 17:27:20,916]: 127.0.0.1:8888 "sample.png 5 URI too long 
+[2021-12-05 17:27:20,916]: 127.0.0.1:8888 "GET /sample.png HTTP/1.1"414 Self-Testing
+[2021-12-05 17:27:20,916]: 127.0.0.1:8888 "GET HTTP/1.1 sample.png"414 
+[2021-12-05 17:28:16,168]: 127.0.0.1:8887 "3.txt Accessed Successfully.
+[2021-12-05 17:28:16,168]: 127.0.0.1:8887 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-05 17:28:16,169]: 127.0.0.1:8887 "GET HTTP/1.1 3.txt"200 
+[2021-12-05 17:28:16,169]: 127.0.0.1:8887 "3.txt Head Successful.
+[2021-12-05 17:28:16,169]: 127.0.0.1:8887 "HEAD /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-05 17:28:16,169]: 127.0.0.1:8887 "HEAD HTTP/1.1 3.txt"200 
+[2021-12-05 17:28:16,170]: 127.0.0.1:8887 "DELETE HTTP/1.1 one.mp3"404 
+[2021-12-05 17:28:16,170]: 127.0.0.1:8887 "one.mp3 File Not Found 
+[2021-12-05 17:28:16,170]: 127.0.0.1:8887 "DELETE /one.mp3 HTTP/1.1"404 Self-Testing 
+[2021-12-05 17:28:16,170]: 127.0.0.1:8887 "test.png Incorrect Username or Password
+[2021-12-05 17:28:16,171]: 127.0.0.1:8887 "DELETE /test.png HTTP/1.1"401 Self-Testing
+[2021-12-05 17:28:16,171]: 127.0.0.1:8887 "DELETE HTTP/1.1 test.png"401 
+[2021-12-05 17:28:16,171]: 127.0.0.1:8887 "Requested File dj.mp3 was Forbidden
+[2021-12-05 17:28:16,171]: 127.0.0.1:8887 "GET /dj.mp3 HTTP/1.1"403 Self-Testing 
+[2021-12-05 17:28:16,171]: 127.0.0.1:8887 "GET HTTP/1.1 dj.mp3"403 
+[2021-12-05 17:28:16,172]: 127.0.0.1:8887 "test.pp This File format is not supported 
+[2021-12-05 17:28:16,172]: 127.0.0.1:8887 "GET /test.pp HTTP/1.1"415 Self-Testing
+[2021-12-05 17:28:16,172]: 127.0.0.1:8887 "GET HTTP/1.1 test.pp"415 
+[2021-12-05 17:28:16,172]: 127.0.0.1:8887 "PATCH  Method is Not Allowed.
+[2021-12-05 17:28:16,172]: 127.0.0.1:8887 "PATCH /7333.jpg HTTP/1.1"405 Self-Testing
+[2021-12-05 17:28:16,173]: 127.0.0.1:8887 "PATCH HTTP/1.1 7333.jpg"405 
+[2021-12-05 17:28:16,206]: 127.0.0.1:8887 "sample.png Accessed Successfully.
+[2021-12-05 17:28:16,206]: 127.0.0.1:8887 "GET /sample.png HTTP/1.1"200 Self-Testing 
+[2021-12-05 17:28:16,206]: 127.0.0.1:8887 "GET HTTP/1.1 sample.png"200 
+[2021-12-05 17:37:10,996]: 127.0.0.1:8887 "3.txt Accessed Successfully.
+[2021-12-05 17:37:10,996]: 127.0.0.1:8887 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-05 17:37:10,996]: 127.0.0.1:8887 "GET HTTP/1.1 3.txt"200 
+[2021-12-05 17:37:10,996]: 127.0.0.1:8887 "3.txt Head Successful.
+[2021-12-05 17:37:10,996]: 127.0.0.1:8887 "HEAD /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-05 17:37:10,996]: 127.0.0.1:8887 "HEAD HTTP/1.1 3.txt"200 
+[2021-12-05 17:37:10,997]: 127.0.0.1:8887 "DELETE HTTP/1.1 one.mp3"404 
+[2021-12-05 17:37:10,997]: 127.0.0.1:8887 "one.mp3 File Not Found 
+[2021-12-05 17:37:10,997]: 127.0.0.1:8887 "DELETE /one.mp3 HTTP/1.1"404 Self-Testing 
+[2021-12-05 17:37:10,997]: 127.0.0.1:8887 "test.png Incorrect Username or Password
+[2021-12-05 17:37:10,998]: 127.0.0.1:8887 "DELETE /test.png HTTP/1.1"401 Self-Testing
+[2021-12-05 17:37:10,998]: 127.0.0.1:8887 "DELETE HTTP/1.1 test.png"401 
+[2021-12-05 17:37:10,998]: 127.0.0.1:8887 "Requested File dj.mp3 was Forbidden
+[2021-12-05 17:37:10,998]: 127.0.0.1:8887 "GET /dj.mp3 HTTP/1.1"403 Self-Testing 
+[2021-12-05 17:37:10,998]: 127.0.0.1:8887 "GET HTTP/1.1 dj.mp3"403 
+[2021-12-05 17:37:10,999]: 127.0.0.1:8887 "PATCH  Method is Not Allowed.
+[2021-12-05 17:37:10,999]: 127.0.0.1:8887 "PATCH /7333.jpg HTTP/1.1"405 Self-Testing
+[2021-12-05 17:37:10,999]: 127.0.0.1:8887 "PATCH HTTP/1.1 7333.jpg"405 
+[2021-12-05 17:37:10,999]: 127.0.0.1:8887 "test.pp This File format is not supported 
+[2021-12-05 17:37:10,999]: 127.0.0.1:8887 "GET /test.pp HTTP/1.1"415 Self-Testing
+[2021-12-05 17:37:10,999]: 127.0.0.1:8887 "GET HTTP/1.1 test.pp"415 
+[2021-12-05 17:37:10,999]: 127.0.0.1:8887 "HTTP/1.2  Version is not supported.
+[2021-12-05 17:37:10,999]: 127.0.0.1:8887 "GET /3.txt HTTP/1.2"505 Self-Testing
+[2021-12-05 17:37:10,999]: 127.0.0.1:8887 "GET HTTP/1.2 3.txt"505 
+[2021-12-05 17:44:23,655]: 127.0.0.1:8887 "3.txt Accessed Successfully.
+[2021-12-05 17:44:23,655]: 127.0.0.1:8887 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-05 17:44:23,655]: 127.0.0.1:8887 "GET HTTP/1.1 3.txt"200 
+[2021-12-05 17:44:23,656]: 127.0.0.1:8887 "3.txt Head Successful.
+[2021-12-05 17:44:23,656]: 127.0.0.1:8887 "HEAD /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-05 17:44:23,656]: 127.0.0.1:8887 "HEAD HTTP/1.1 3.txt"200 
+[2021-12-05 17:44:23,656]: 127.0.0.1:8887 "DELETE HTTP/1.1 one.mp3"404 
+[2021-12-05 17:44:23,656]: 127.0.0.1:8887 "one.mp3 File Not Found 
+[2021-12-05 17:44:23,656]: 127.0.0.1:8887 "DELETE /one.mp3 HTTP/1.1"404 Self-Testing 
+[2021-12-05 17:44:23,657]: 127.0.0.1:8887 "test.png Incorrect Username or Password
+[2021-12-05 17:44:23,657]: 127.0.0.1:8887 "DELETE /test.png HTTP/1.1"401 Self-Testing
+[2021-12-05 17:44:23,657]: 127.0.0.1:8887 "DELETE HTTP/1.1 test.png"401 
+[2021-12-05 17:44:23,657]: 127.0.0.1:8887 "Requested File dj.mp3 was Forbidden
+[2021-12-05 17:44:23,657]: 127.0.0.1:8887 "GET /dj.mp3 HTTP/1.1"403 Self-Testing 
+[2021-12-05 17:44:23,657]: 127.0.0.1:8887 "GET HTTP/1.1 dj.mp3"403 
+[2021-12-05 17:44:23,659]: 127.0.0.1:8887 "test.pp This File format is not supported 
+[2021-12-05 17:44:23,659]: 127.0.0.1:8887 "GET /test.pp HTTP/1.1"415 Self-Testing
+[2021-12-05 17:44:23,659]: 127.0.0.1:8887 "GET HTTP/1.1 test.pp"415 
+[2021-12-05 17:44:23,659]: 127.0.0.1:8887 "PATCH  Method is Not Allowed.
+[2021-12-05 17:44:23,660]: 127.0.0.1:8887 "PATCH /7333.jpg HTTP/1.1"405 Self-Testing
+[2021-12-05 17:44:23,660]: 127.0.0.1:8887 "PATCH HTTP/1.1 7333.jpg"405 
+[2021-12-05 17:44:23,661]: 127.0.0.1:8887 "HTTP/1.2  Version is not supported.
+[2021-12-05 17:44:23,661]: 127.0.0.1:8887 "GET /3.txt HTTP/1.2"505 Self-Testing
+[2021-12-05 17:44:23,661]: 127.0.0.1:8887 "GET HTTP/1.2 3.txt"505 
+[2021-12-05 17:44:23,663]: 127.0.0.1:8887 "putTesting.txt File Created Successfully.
+[2021-12-05 17:44:23,663]: 127.0.0.1:8887 "PUT /putTesting.txt HTTP/1.1"201 Self_Testing 
+[2021-12-05 17:44:23,663]: 127.0.0.1:8887 "PUT HTTP/1.1 putTesting.txt"201 
+[2021-12-05 17:44:23,664]: 127.0.0.1:8887 "postTesting.txt File Created Successfully.
+[2021-12-05 17:44:23,664]: 127.0.0.1:8887 "POST /postTesting.txt HTTP/1.1"201 Self_Testing 
+[2021-12-05 17:44:23,664]: 127.0.0.1:8887 "POST HTTP/1.1 postTesting.txt"201 
+[2021-12-06 22:03:15,468]: 127.0.0.1:8888 "hello.txt File Created Successfully.
+[2021-12-06 22:03:15,470]: 127.0.0.1:8888 "world.txt File Created Successfully.
+[2021-12-06 22:03:15,473]: 127.0.0.1:8888 "hello.txt Accessed Successfully.
+[2021-12-06 22:03:15,474]: 127.0.0.1:8888 "world.txt Head Successful.
+[2021-12-06 22:03:15,475]: 127.0.0.1:8888 "world.txt File Deleted Successfully. 
+[2021-12-06 22:03:15,498]: 127.0.0.1:8888 "PUT /hello.txt HTTP/1.1"201 Self_Testing 
+[2021-12-06 22:03:15,498]: 127.0.0.1:8888 "POST /world.txt HTTP/1.1"201 Self_Testing 
+[2021-12-06 22:03:15,498]: 127.0.0.1:8888 "GET /hello.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:03:15,499]: 127.0.0.1:8888 "HEAD /world.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:03:15,499]: 127.0.0.1:8888 "DELETE /world.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:03:15,499]: 127.0.0.1:8888 "PUT HTTP/1.1 hello.txt"201 
+[2021-12-06 22:03:15,499]: 127.0.0.1:8888 "POST HTTP/1.1 world.txt"201 
+[2021-12-06 22:03:15,500]: 127.0.0.1:8888 "GET HTTP/1.1 hello.txt"200 
+[2021-12-06 22:03:15,501]: 127.0.0.1:8888 "HEAD HTTP/1.1 world.txt"200 
+[2021-12-06 22:03:15,501]: 127.0.0.1:8888 "DELETE HTTP/1.1 world.txt"200 
+[2021-12-06 22:05:11,464]: 127.0.0.1:8889 "hello.txt File Modified Successfully.
+[2021-12-06 22:05:11,464]: 127.0.0.1:8889 "PUT /hello.txt HTTP/1.1"200 Self_Testing 
+[2021-12-06 22:05:11,464]: 127.0.0.1:8889 "PUT HTTP/1.1 hello.txt"200 
+[2021-12-06 22:05:11,465]: 127.0.0.1:8889 "world.txt File Created Successfully.
+[2021-12-06 22:05:11,465]: 127.0.0.1:8889 "POST /world.txt HTTP/1.1"201 Self_Testing 
+[2021-12-06 22:05:11,465]: 127.0.0.1:8889 "POST HTTP/1.1 world.txt"201 
+[2021-12-06 22:05:11,466]: 127.0.0.1:8889 "hello.txt Accessed Successfully.
+[2021-12-06 22:05:11,466]: 127.0.0.1:8889 "GET /hello.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:05:11,467]: 127.0.0.1:8889 "GET HTTP/1.1 hello.txt"200 
+[2021-12-06 22:05:11,468]: 127.0.0.1:8889 "world.txt Head Successful.
+[2021-12-06 22:05:11,468]: 127.0.0.1:8889 "HEAD /world.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:05:11,469]: 127.0.0.1:8889 "HEAD HTTP/1.1 world.txt"200 
+[2021-12-06 22:05:11,470]: 127.0.0.1:8889 "world.txt File Deleted Successfully. 
+[2021-12-06 22:05:11,470]: 127.0.0.1:8889 "DELETE /world.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:05:11,470]: 127.0.0.1:8889 "DELETE HTTP/1.1 world.txt"200 
+[2021-12-06 22:05:11,471]: 127.0.0.1:8889 "7 Max requests Limit reached Now service is Unavailable.
+[2021-12-06 22:06:48,986]: 127.0.0.1:8888 "Requested File hello.txt was Forbidden
+[2021-12-06 22:06:48,986]: 127.0.0.1:8888 "PUT /hello.txt HTTP/1.1"403 Self_Testing 
+[2021-12-06 22:06:48,986]: 127.0.0.1:8888 "PUT HTTP/1.1 hello.txt"403 
+[2021-12-06 22:06:48,987]: 127.0.0.1:8888 "world.txt File Created Successfully.
+[2021-12-06 22:06:48,987]: 127.0.0.1:8888 "POST /world.txt HTTP/1.1"201 Self_Testing 
+[2021-12-06 22:06:48,988]: 127.0.0.1:8888 "POST HTTP/1.1 world.txt"201 
+[2021-12-06 22:06:48,989]: 127.0.0.1:8888 "Requested File hello.txt was Forbidden
+[2021-12-06 22:06:48,990]: 127.0.0.1:8888 "GET /hello.txt HTTP/1.1"403 Self-Testing 
+[2021-12-06 22:06:48,990]: 127.0.0.1:8888 "GET HTTP/1.1 hello.txt"403 
+[2021-12-06 22:07:05,172]: 127.0.0.1:8888 "Requested File hello.txt was Forbidden
+[2021-12-06 22:07:05,173]: 127.0.0.1:8888 "PUT /hello.txt HTTP/1.1"403 Self_Testing 
+[2021-12-06 22:07:05,173]: 127.0.0.1:8888 "PUT HTTP/1.1 hello.txt"403 
+[2021-12-06 22:07:05,177]: 127.0.0.1:8888 "world(1).txt File Modified and renamed Successfully.
+[2021-12-06 22:07:05,177]: 127.0.0.1:8888 "POST /world(1).txt HTTP/1.1"200 Self_Testing 
+[2021-12-06 22:07:05,177]: 127.0.0.1:8888 "POST HTTP/1.1 world(1).txt"200 
+[2021-12-06 22:07:05,178]: 127.0.0.1:8888 "Requested File hello.txt was Forbidden
+[2021-12-06 22:07:05,178]: 127.0.0.1:8888 "GET /hello.txt HTTP/1.1"403 Self-Testing 
+[2021-12-06 22:07:05,178]: 127.0.0.1:8888 "GET HTTP/1.1 hello.txt"403 
+[2021-12-06 22:43:32,621]: 127.0.0.1:8888 "hello.txt File Created Successfully.
+[2021-12-06 22:43:32,621]: 127.0.0.1:8888 "PUT /hello.txt HTTP/1.1"201 Self_Testing 
+[2021-12-06 22:43:32,621]: 127.0.0.1:8888 "PUT HTTP/1.1 hello.txt"201 
+[2021-12-06 22:43:32,623]: 127.0.0.1:8888 "world(2).txt File Modified and renamed Successfully.
+[2021-12-06 22:43:32,623]: 127.0.0.1:8888 "POST /world(2).txt HTTP/1.1"200 Self_Testing 
+[2021-12-06 22:43:32,623]: 127.0.0.1:8888 "POST HTTP/1.1 world(2).txt"200 
+[2021-12-06 22:43:32,624]: 127.0.0.1:8888 "hello.txt Accessed Successfully.
+[2021-12-06 22:43:32,624]: 127.0.0.1:8888 "GET /hello.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,624]: 127.0.0.1:8888 "GET HTTP/1.1 hello.txt"200 
+[2021-12-06 22:43:32,626]: 127.0.0.1:8888 "world.txt Head Successful.
+[2021-12-06 22:43:32,626]: 127.0.0.1:8888 "HEAD /world.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,627]: 127.0.0.1:8888 "HEAD HTTP/1.1 world.txt"200 
+[2021-12-06 22:43:32,629]: 127.0.0.1:8888 "world.txt File Deleted Successfully. 
+[2021-12-06 22:43:32,629]: 127.0.0.1:8888 "DELETE /world.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,629]: 127.0.0.1:8888 "DELETE HTTP/1.1 world.txt"200 
+[2021-12-06 22:43:32,631]: 127.0.0.1:8888 "hello.txt Incorrect Username or Password
+[2021-12-06 22:43:32,631]: 127.0.0.1:8888 "DELETE /hello.txt HTTP/1.1"401 Self-Testing
+[2021-12-06 22:43:32,631]: 127.0.0.1:8888 "DELETE HTTP/1.1 hello.txt"401 
+[2021-12-06 22:43:32,633]: 127.0.0.1:8888 "Requested File hello.txt was Forbidden
+[2021-12-06 22:43:32,634]: 127.0.0.1:8888 "GET /hello.txt HTTP/1.1"403 Self-Testing 
+[2021-12-06 22:43:32,634]: 127.0.0.1:8888 "GET HTTP/1.1 hello.txt"403 
+[2021-12-06 22:43:32,635]: 127.0.0.1:8888 "hello.txt File Deleted Successfully. 
+[2021-12-06 22:43:32,636]: 127.0.0.1:8888 "DELETE /hello.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,636]: 127.0.0.1:8888 "DELETE HTTP/1.1 hello.txt"200 
+[2021-12-06 22:43:32,637]: 127.0.0.1:8888 "any.py This File format is not supported 
+[2021-12-06 22:43:32,637]: 127.0.0.1:8888 "GET /any.py HTTP/1.1"415 Self-Testing
+[2021-12-06 22:43:32,637]: 127.0.0.1:8888 "GET HTTP/1.1 any.py"415 
+[2021-12-06 22:43:32,640]: 127.0.0.1:8888 "PATCH  Method is Not Allowed.
+[2021-12-06 22:43:32,640]: 127.0.0.1:8888 "PATCH /hey.txt HTTP/1.1"405 Self-Testing
+[2021-12-06 22:43:32,640]: 127.0.0.1:8888 "PATCH HTTP/1.1 hey.txt"405 
+[2021-12-06 22:43:32,642]: 127.0.0.1:8888 "HTTP/2.1  Version is not supported.
+[2021-12-06 22:43:32,642]: 127.0.0.1:8888 "GET /hey.txt HTTP/2.1"505 Self-Testing
+[2021-12-06 22:43:32,642]: 127.0.0.1:8888 "GET HTTP/2.1 hey.txt"505 
+[2021-12-06 22:43:32,646]: 127.0.0.1:8888 "file/get/uri_too_long/hello/world/file.txt 25 URI too long 
+[2021-12-06 22:43:32,648]: 127.0.0.1:8888 "GET /file/get/uri_too_long/hello/world/file.txt HTTP/1.1"414 Self-Testing
+[2021-12-06 22:43:32,650]: 127.0.0.1:8888 "GET HTTP/1.1 file/get/uri_too_long/hello/world/file.txt"414 
+[2021-12-06 22:43:32,657]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:32,659]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,659]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:32,663]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:32,663]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,663]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:32,665]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:32,665]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,665]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:32,668]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:32,668]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,668]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:32,671]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:32,672]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,672]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:32,673]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:32,673]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,674]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:32,688]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:32,690]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,690]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:32,695]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:32,695]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,696]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:32,711]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:32,711]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,712]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:32,713]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:32,715]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,716]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:32,730]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:32,730]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,732]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:32,733]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:32,737]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,746]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:32,759]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:32,760]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,760]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:32,769]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:32,769]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,774]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:32,778]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:32,778]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,781]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:32,787]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:32,789]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,790]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:32,798]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:32,799]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,802]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:32,808]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:32,808]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,811]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:32,826]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:32,827]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,828]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:32,853]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:32,854]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,854]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:32,861]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:32,861]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,862]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:32,897]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:32,897]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,901]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:32,937]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:32,939]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,945]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:32,965]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:32,965]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:32,966]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:33,012]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:33,012]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:33,013]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:33,041]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:33,042]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:33,044]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:33,084]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:33,084]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:33,084]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:33,103]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:33,103]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:33,106]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:33,133]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:33,134]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:33,134]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:33,165]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:33,165]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:33,165]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:33,217]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:33,217]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:33,219]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:33,259]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:33,259]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:33,260]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:33,331]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:33,333]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:33,334]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:33,746]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:33,747]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:33,749]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:33,774]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:33,774]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:33,779]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:33,812]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:33,812]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:33,814]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:33,825]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:33,825]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:33,825]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:33,853]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:33,855]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:33,886]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:43:33,890]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:43:33,899]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:43:33,900]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,402]: 127.0.0.1:8888 "hello.txt File Created Successfully.
+[2021-12-06 22:47:10,402]: 127.0.0.1:8888 "PUT /hello.txt HTTP/1.1"201 Self_Testing 
+[2021-12-06 22:47:10,402]: 127.0.0.1:8888 "PUT HTTP/1.1 hello.txt"201 
+[2021-12-06 22:47:10,403]: 127.0.0.1:8888 "world.txt File Created Successfully.
+[2021-12-06 22:47:10,403]: 127.0.0.1:8888 "POST /world.txt HTTP/1.1"201 Self_Testing 
+[2021-12-06 22:47:10,403]: 127.0.0.1:8888 "POST HTTP/1.1 world.txt"201 
+[2021-12-06 22:47:10,405]: 127.0.0.1:8888 "hello.txt Accessed Successfully.
+[2021-12-06 22:47:10,405]: 127.0.0.1:8888 "GET /hello.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,405]: 127.0.0.1:8888 "GET HTTP/1.1 hello.txt"200 
+[2021-12-06 22:47:10,408]: 127.0.0.1:8888 "world.txt Head Successful.
+[2021-12-06 22:47:10,408]: 127.0.0.1:8888 "HEAD /world.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,408]: 127.0.0.1:8888 "HEAD HTTP/1.1 world.txt"200 
+[2021-12-06 22:47:10,411]: 127.0.0.1:8888 "world.txt File Deleted Successfully. 
+[2021-12-06 22:47:10,412]: 127.0.0.1:8888 "DELETE /world.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,412]: 127.0.0.1:8888 "DELETE HTTP/1.1 world.txt"200 
+[2021-12-06 22:47:10,415]: 127.0.0.1:8888 "hello.txt Incorrect Username or Password
+[2021-12-06 22:47:10,415]: 127.0.0.1:8888 "DELETE /hello.txt HTTP/1.1"401 Self-Testing
+[2021-12-06 22:47:10,415]: 127.0.0.1:8888 "DELETE HTTP/1.1 hello.txt"401 
+[2021-12-06 22:47:10,418]: 127.0.0.1:8888 "Requested File hello.txt was Forbidden
+[2021-12-06 22:47:10,418]: 127.0.0.1:8888 "GET /hello.txt HTTP/1.1"403 Self-Testing 
+[2021-12-06 22:47:10,419]: 127.0.0.1:8888 "GET HTTP/1.1 hello.txt"403 
+[2021-12-06 22:47:10,421]: 127.0.0.1:8888 "hello.txt File Deleted Successfully. 
+[2021-12-06 22:47:10,421]: 127.0.0.1:8888 "DELETE /hello.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,421]: 127.0.0.1:8888 "DELETE HTTP/1.1 hello.txt"200 
+[2021-12-06 22:47:10,424]: 127.0.0.1:8888 "any.py This File format is not supported 
+[2021-12-06 22:47:10,425]: 127.0.0.1:8888 "GET /any.py HTTP/1.1"415 Self-Testing
+[2021-12-06 22:47:10,425]: 127.0.0.1:8888 "GET HTTP/1.1 any.py"415 
+[2021-12-06 22:47:10,427]: 127.0.0.1:8888 "PATCH  Method is Not Allowed.
+[2021-12-06 22:47:10,428]: 127.0.0.1:8888 "PATCH /hey.txt HTTP/1.1"405 Self-Testing
+[2021-12-06 22:47:10,428]: 127.0.0.1:8888 "PATCH HTTP/1.1 hey.txt"405 
+[2021-12-06 22:47:10,431]: 127.0.0.1:8888 "HTTP/2.1  Version is not supported.
+[2021-12-06 22:47:10,432]: 127.0.0.1:8888 "GET /hey.txt HTTP/2.1"505 Self-Testing
+[2021-12-06 22:47:10,432]: 127.0.0.1:8888 "GET HTTP/2.1 hey.txt"505 
+[2021-12-06 22:47:10,436]: 127.0.0.1:8888 "file/get/uri_too_long/hello/world/file.txt 25 URI too long 
+[2021-12-06 22:47:10,437]: 127.0.0.1:8888 "GET /file/get/uri_too_long/hello/world/file.txt HTTP/1.1"414 Self-Testing
+[2021-12-06 22:47:10,437]: 127.0.0.1:8888 "GET HTTP/1.1 file/get/uri_too_long/hello/world/file.txt"414 
+[2021-12-06 22:47:10,445]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,445]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,446]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,448]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,448]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,450]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,454]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,454]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,454]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,456]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,457]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,458]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,460]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,461]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,462]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,462]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,469]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,469]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,479]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,479]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,481]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,481]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,483]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,487]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,499]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,502]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,502]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,503]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,507]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,507]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,510]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,511]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,512]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,530]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,530]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,531]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,535]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,536]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,537]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,545]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,546]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,546]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,547]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,547]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,549]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,556]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,556]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,556]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,565]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,566]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,566]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,570]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,574]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,575]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,581]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,581]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,583]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,589]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,590]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,590]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,596]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,597]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,599]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,609]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,610]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,610]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,625]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,625]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,627]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,638]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,640]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,645]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,654]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,654]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,655]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,663]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,664]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,664]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,666]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,669]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,671]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,681]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,681]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,681]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,700]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,700]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,702]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,726]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,727]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,729]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,748]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,748]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,751]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,763]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,763]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,764]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:10,776]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:10,778]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:10,778]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:11,512]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:11,513]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:11,521]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:11,595]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:11,595]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:11,599]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:11,605]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:11,614]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:11,640]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:11,672]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:11,674]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:11,674]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:11,688]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:11,689]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:11,689]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:11,725]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:11,725]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:11,725]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:11,758]: 127.0.0.1:8888 "3.txt Accessed Successfully.
+[2021-12-06 22:47:11,763]: 127.0.0.1:8888 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:47:11,764]: 127.0.0.1:8888 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:47:11,765]: 127.0.0.1:8888 "70 Max requests Limit reached Now service is Unavailable.
+[2021-12-06 22:50:14,542]: 127.0.0.1:8889 "hello.txt File Created Successfully.
+[2021-12-06 22:50:14,543]: 127.0.0.1:8889 "PUT /hello.txt HTTP/1.1"201 Self_Testing 
+[2021-12-06 22:50:14,543]: 127.0.0.1:8889 "PUT HTTP/1.1 hello.txt"201 
+[2021-12-06 22:50:14,545]: 127.0.0.1:8889 "world.txt File Created Successfully.
+[2021-12-06 22:50:14,545]: 127.0.0.1:8889 "POST /world.txt HTTP/1.1"201 Self_Testing 
+[2021-12-06 22:50:14,545]: 127.0.0.1:8889 "POST HTTP/1.1 world.txt"201 
+[2021-12-06 22:50:14,548]: 127.0.0.1:8889 "hello.txt Accessed Successfully.
+[2021-12-06 22:50:14,548]: 127.0.0.1:8889 "GET /hello.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:50:14,548]: 127.0.0.1:8889 "GET HTTP/1.1 hello.txt"200 
+[2021-12-06 22:50:14,551]: 127.0.0.1:8889 "world.txt Head Successful.
+[2021-12-06 22:50:14,551]: 127.0.0.1:8889 "HEAD /world.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:50:14,551]: 127.0.0.1:8889 "HEAD HTTP/1.1 world.txt"200 
+[2021-12-06 22:50:14,555]: 127.0.0.1:8889 "world.txt File Deleted Successfully. 
+[2021-12-06 22:50:14,555]: 127.0.0.1:8889 "DELETE /world.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:50:14,555]: 127.0.0.1:8889 "DELETE HTTP/1.1 world.txt"200 
+[2021-12-06 22:50:14,558]: 127.0.0.1:8889 "hello.txt Incorrect Username or Password
+[2021-12-06 22:50:14,558]: 127.0.0.1:8889 "DELETE /hello.txt HTTP/1.1"401 Self-Testing
+[2021-12-06 22:50:14,558]: 127.0.0.1:8889 "DELETE HTTP/1.1 hello.txt"401 
+[2021-12-06 22:50:14,561]: 127.0.0.1:8889 "Requested File hello.txt was Forbidden
+[2021-12-06 22:50:14,562]: 127.0.0.1:8889 "GET /hello.txt HTTP/1.1"403 Self-Testing 
+[2021-12-06 22:50:14,562]: 127.0.0.1:8889 "GET HTTP/1.1 hello.txt"403 
+[2021-12-06 22:50:14,565]: 127.0.0.1:8889 "hello.txt File Deleted Successfully. 
+[2021-12-06 22:50:14,566]: 127.0.0.1:8889 "DELETE /hello.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:50:14,566]: 127.0.0.1:8889 "DELETE HTTP/1.1 hello.txt"200 
+[2021-12-06 22:50:14,567]: 127.0.0.1:8889 "any.py This File format is not supported 
+[2021-12-06 22:50:14,568]: 127.0.0.1:8889 "GET /any.py HTTP/1.1"415 Self-Testing
+[2021-12-06 22:50:14,568]: 127.0.0.1:8889 "GET HTTP/1.1 any.py"415 
+[2021-12-06 22:50:14,570]: 127.0.0.1:8889 "PATCH  Method is Not Allowed.
+[2021-12-06 22:50:14,570]: 127.0.0.1:8889 "PATCH /hey.txt HTTP/1.1"405 Self-Testing
+[2021-12-06 22:50:14,570]: 127.0.0.1:8889 "PATCH HTTP/1.1 hey.txt"405 
+[2021-12-06 22:50:14,572]: 127.0.0.1:8889 "HTTP/2.1  Version is not supported.
+[2021-12-06 22:50:14,572]: 127.0.0.1:8889 "GET /hey.txt HTTP/2.1"505 Self-Testing
+[2021-12-06 22:50:14,572]: 127.0.0.1:8889 "GET HTTP/2.1 hey.txt"505 
+[2021-12-06 22:50:14,575]: 127.0.0.1:8889 "file/get/uri_too_long/hello/world/file.txt 25 URI too long 
+[2021-12-06 22:50:14,575]: 127.0.0.1:8889 "GET /file/get/uri_too_long/hello/world/file.txt HTTP/1.1"414 Self-Testing
+[2021-12-06 22:50:14,575]: 127.0.0.1:8889 "GET HTTP/1.1 file/get/uri_too_long/hello/world/file.txt"414 
+[2021-12-06 22:50:14,587]: 127.0.0.1:8889 "3.txt Accessed Successfully.
+[2021-12-06 22:50:14,587]: 127.0.0.1:8889 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:50:14,587]: 127.0.0.1:8889 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:50:14,590]: 127.0.0.1:8889 "3.txt Accessed Successfully.
+[2021-12-06 22:50:14,591]: 127.0.0.1:8889 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:50:14,591]: 127.0.0.1:8889 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:50:14,593]: 127.0.0.1:8889 "3.txt Accessed Successfully.
+[2021-12-06 22:50:14,593]: 127.0.0.1:8889 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:50:14,594]: 127.0.0.1:8889 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:50:14,595]: 127.0.0.1:8889 "3.txt Accessed Successfully.
+[2021-12-06 22:50:14,595]: 127.0.0.1:8889 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:50:14,596]: 127.0.0.1:8889 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:50:14,596]: 127.0.0.1:8889 "20 Max requests Limit reached Now service is Unavailable.
+[2021-12-06 22:57:01,438]: 127.0.0.1:8889 "hello.txt File Created Successfully.
+[2021-12-06 22:57:01,438]: 127.0.0.1:8889 "PUT /hello.txt HTTP/1.1"201 Self_Testing 
+[2021-12-06 22:57:01,439]: 127.0.0.1:8889 "PUT HTTP/1.1 hello.txt"201 
+[2021-12-06 22:57:01,440]: 127.0.0.1:8889 "world.txt File Created Successfully.
+[2021-12-06 22:57:01,440]: 127.0.0.1:8889 "POST /world.txt HTTP/1.1"201 Self_Testing 
+[2021-12-06 22:57:01,440]: 127.0.0.1:8889 "POST HTTP/1.1 world.txt"201 
+[2021-12-06 22:57:01,441]: 127.0.0.1:8889 "hello.txt Accessed Successfully.
+[2021-12-06 22:57:01,442]: 127.0.0.1:8889 "GET /hello.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:57:01,442]: 127.0.0.1:8889 "GET HTTP/1.1 hello.txt"200 
+[2021-12-06 22:57:01,443]: 127.0.0.1:8889 "world.txt Head Successful.
+[2021-12-06 22:57:01,444]: 127.0.0.1:8889 "HEAD /world.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:57:01,444]: 127.0.0.1:8889 "HEAD HTTP/1.1 world.txt"200 
+[2021-12-06 22:57:01,446]: 127.0.0.1:8889 "world.txt File Deleted Successfully. 
+[2021-12-06 22:57:01,446]: 127.0.0.1:8889 "DELETE /world.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:57:01,446]: 127.0.0.1:8889 "DELETE HTTP/1.1 world.txt"200 
+[2021-12-06 22:57:01,448]: 127.0.0.1:8889 "hello.txt Incorrect Username or Password
+[2021-12-06 22:57:01,449]: 127.0.0.1:8889 "DELETE /hello.txt HTTP/1.1"401 Self-Testing
+[2021-12-06 22:57:01,449]: 127.0.0.1:8889 "DELETE HTTP/1.1 hello.txt"401 
+[2021-12-06 22:57:01,451]: 127.0.0.1:8889 "Requested File hello.txt was Forbidden
+[2021-12-06 22:57:01,452]: 127.0.0.1:8889 "GET /hello.txt HTTP/1.1"403 Self-Testing 
+[2021-12-06 22:57:01,452]: 127.0.0.1:8889 "GET HTTP/1.1 hello.txt"403 
+[2021-12-06 22:57:01,455]: 127.0.0.1:8889 "hello.txt File Deleted Successfully. 
+[2021-12-06 22:57:01,456]: 127.0.0.1:8889 "DELETE /hello.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:57:01,456]: 127.0.0.1:8889 "DELETE HTTP/1.1 hello.txt"200 
+[2021-12-06 22:57:01,459]: 127.0.0.1:8889 "any.py This File format is not supported 
+[2021-12-06 22:57:01,459]: 127.0.0.1:8889 "GET /any.py HTTP/1.1"415 Self-Testing
+[2021-12-06 22:57:01,459]: 127.0.0.1:8889 "GET HTTP/1.1 any.py"415 
+[2021-12-06 22:57:01,460]: 127.0.0.1:8889 "PATCH  Method is Not Allowed.
+[2021-12-06 22:57:01,460]: 127.0.0.1:8889 "PATCH /hey.txt HTTP/1.1"405 Self-Testing
+[2021-12-06 22:57:01,460]: 127.0.0.1:8889 "PATCH HTTP/1.1 hey.txt"405 
+[2021-12-06 22:57:01,462]: 127.0.0.1:8889 "HTTP/2.1  Version is not supported.
+[2021-12-06 22:57:01,462]: 127.0.0.1:8889 "GET /hey.txt HTTP/2.1"505 Self-Testing
+[2021-12-06 22:57:01,462]: 127.0.0.1:8889 "GET HTTP/2.1 hey.txt"505 
+[2021-12-06 22:57:01,463]: 127.0.0.1:8889 "file/get/uri_too_long/hello/world/file.txt 25 URI too long 
+[2021-12-06 22:57:01,463]: 127.0.0.1:8889 "GET /file/get/uri_too_long/hello/world/file.txt HTTP/1.1"414 Self-Testing
+[2021-12-06 22:57:01,464]: 127.0.0.1:8889 "GET HTTP/1.1 file/get/uri_too_long/hello/world/file.txt"414 
+[2021-12-06 22:57:01,469]: 127.0.0.1:8889 "3.txt Accessed Successfully.
+[2021-12-06 22:57:01,469]: 127.0.0.1:8889 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:57:01,470]: 127.0.0.1:8889 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:57:01,473]: 127.0.0.1:8889 "3.txt Accessed Successfully.
+[2021-12-06 22:57:01,475]: 127.0.0.1:8889 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:57:01,476]: 127.0.0.1:8889 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:57:01,477]: 127.0.0.1:8889 "3.txt Accessed Successfully.
+[2021-12-06 22:57:01,477]: 127.0.0.1:8889 "GET /3.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:57:01,478]: 127.0.0.1:8889 "GET HTTP/1.1 3.txt"200 
+[2021-12-06 22:59:27,258]: 127.0.0.1:8888 "hello.txt File Created Successfully.
+[2021-12-06 22:59:27,259]: 127.0.0.1:8888 "PUT /hello.txt HTTP/1.1"201 Self_Testing 
+[2021-12-06 22:59:27,259]: 127.0.0.1:8888 "PUT HTTP/1.1 hello.txt"201 
+[2021-12-06 22:59:27,260]: 127.0.0.1:8888 "world.txt File Created Successfully.
+[2021-12-06 22:59:27,260]: 127.0.0.1:8888 "POST /world.txt HTTP/1.1"201 Self_Testing 
+[2021-12-06 22:59:27,260]: 127.0.0.1:8888 "POST HTTP/1.1 world.txt"201 
+[2021-12-06 22:59:27,261]: 127.0.0.1:8888 "hello.txt Accessed Successfully.
+[2021-12-06 22:59:27,262]: 127.0.0.1:8888 "GET /hello.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:59:27,262]: 127.0.0.1:8888 "GET HTTP/1.1 hello.txt"200 
+[2021-12-06 22:59:27,263]: 127.0.0.1:8888 "world.txt Head Successful.
+[2021-12-06 22:59:27,263]: 127.0.0.1:8888 "HEAD /world.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:59:27,263]: 127.0.0.1:8888 "HEAD HTTP/1.1 world.txt"200 
+[2021-12-06 22:59:27,266]: 127.0.0.1:8888 "world.txt File Deleted Successfully. 
+[2021-12-06 22:59:27,266]: 127.0.0.1:8888 "DELETE /world.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:59:27,267]: 127.0.0.1:8888 "DELETE HTTP/1.1 world.txt"200 
+[2021-12-06 22:59:27,268]: 127.0.0.1:8888 "hello.txt Incorrect Username or Password
+[2021-12-06 22:59:27,269]: 127.0.0.1:8888 "DELETE /hello.txt HTTP/1.1"401 Self-Testing
+[2021-12-06 22:59:27,269]: 127.0.0.1:8888 "DELETE HTTP/1.1 hello.txt"401 
+[2021-12-06 22:59:27,270]: 127.0.0.1:8888 "Requested File hello.txt was Forbidden
+[2021-12-06 22:59:27,270]: 127.0.0.1:8888 "GET /hello.txt HTTP/1.1"403 Self-Testing 
+[2021-12-06 22:59:27,270]: 127.0.0.1:8888 "GET HTTP/1.1 hello.txt"403 
+[2021-12-06 22:59:27,273]: 127.0.0.1:8888 "hello.txt File Deleted Successfully. 
+[2021-12-06 22:59:27,273]: 127.0.0.1:8888 "DELETE /hello.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 22:59:27,273]: 127.0.0.1:8888 "DELETE HTTP/1.1 hello.txt"200 
+[2021-12-06 22:59:27,277]: 127.0.0.1:8888 "any.py This File format is not supported 
+[2021-12-06 22:59:27,277]: 127.0.0.1:8888 "GET /any.py HTTP/1.1"415 Self-Testing
+[2021-12-06 22:59:27,277]: 127.0.0.1:8888 "GET HTTP/1.1 any.py"415 
+[2021-12-06 22:59:27,280]: 127.0.0.1:8888 "PATCH  Method is Not Allowed.
+[2021-12-06 22:59:27,281]: 127.0.0.1:8888 "PATCH /hey.txt HTTP/1.1"405 Self-Testing
+[2021-12-06 22:59:27,281]: 127.0.0.1:8888 "PATCH HTTP/1.1 hey.txt"405 
+[2021-12-06 22:59:27,283]: 127.0.0.1:8888 "HTTP/2.1  Version is not supported.
+[2021-12-06 22:59:27,283]: 127.0.0.1:8888 "GET /hey.txt HTTP/2.1"505 Self-Testing
+[2021-12-06 22:59:27,284]: 127.0.0.1:8888 "GET HTTP/2.1 hey.txt"505 
+[2021-12-06 22:59:27,285]: 127.0.0.1:8888 "file/get/uri_too_long/hello/world/file.txt 25 URI too long 
+[2021-12-06 22:59:27,285]: 127.0.0.1:8888 "GET /file/get/uri_too_long/hello/world/file.txt HTTP/1.1"414 Self-Testing
+[2021-12-06 22:59:27,286]: 127.0.0.1:8888 "GET HTTP/1.1 file/get/uri_too_long/hello/world/file.txt"414 
+[2021-12-06 23:01:54,724]: 127.0.0.1:8889 "hello.txt File Created Successfully.
+[2021-12-06 23:01:54,724]: 127.0.0.1:8889 "PUT /hello.txt HTTP/1.1"201 Self_Testing 
+[2021-12-06 23:01:54,725]: 127.0.0.1:8889 "PUT HTTP/1.1 hello.txt"201 
+[2021-12-06 23:01:54,726]: 127.0.0.1:8889 "world.txt File Created Successfully.
+[2021-12-06 23:01:54,726]: 127.0.0.1:8889 "POST /world.txt HTTP/1.1"201 Self_Testing 
+[2021-12-06 23:01:54,726]: 127.0.0.1:8889 "POST HTTP/1.1 world.txt"201 
+[2021-12-06 23:01:54,727]: 127.0.0.1:8889 "hello.txt Accessed Successfully.
+[2021-12-06 23:01:54,727]: 127.0.0.1:8889 "GET /hello.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 23:01:54,728]: 127.0.0.1:8889 "GET HTTP/1.1 hello.txt"200 
+[2021-12-06 23:01:54,729]: 127.0.0.1:8889 "world.txt Head Successful.
+[2021-12-06 23:01:54,730]: 127.0.0.1:8889 "HEAD /world.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 23:01:54,730]: 127.0.0.1:8889 "HEAD HTTP/1.1 world.txt"200 
+[2021-12-06 23:01:54,733]: 127.0.0.1:8889 "world.txt File Deleted Successfully. 
+[2021-12-06 23:01:54,733]: 127.0.0.1:8889 "DELETE /world.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 23:01:54,733]: 127.0.0.1:8889 "DELETE HTTP/1.1 world.txt"200 
+[2021-12-06 23:01:54,737]: 127.0.0.1:8889 "hello.txt Incorrect Username or Password
+[2021-12-06 23:01:54,737]: 127.0.0.1:8889 "DELETE /hello.txt HTTP/1.1"401 Self-Testing
+[2021-12-06 23:01:54,737]: 127.0.0.1:8889 "DELETE HTTP/1.1 hello.txt"401 
+[2021-12-06 23:01:54,738]: 127.0.0.1:8889 "Requested File hello.txt was Forbidden
+[2021-12-06 23:01:54,738]: 127.0.0.1:8889 "GET /hello.txt HTTP/1.1"403 Self-Testing 
+[2021-12-06 23:01:54,738]: 127.0.0.1:8889 "GET HTTP/1.1 hello.txt"403 
+[2021-12-06 23:01:54,742]: 127.0.0.1:8889 "hello.txt File Deleted Successfully. 
+[2021-12-06 23:01:54,744]: 127.0.0.1:8889 "DELETE /hello.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 23:01:54,744]: 127.0.0.1:8889 "DELETE HTTP/1.1 hello.txt"200 
+[2021-12-06 23:01:54,746]: 127.0.0.1:8889 "any.py This File format is not supported 
+[2021-12-06 23:01:54,747]: 127.0.0.1:8889 "GET /any.py HTTP/1.1"415 Self-Testing
+[2021-12-06 23:01:54,747]: 127.0.0.1:8889 "GET HTTP/1.1 any.py"415 
+[2021-12-06 23:01:54,749]: 127.0.0.1:8889 "PATCH  Method is Not Allowed.
+[2021-12-06 23:01:54,749]: 127.0.0.1:8889 "PATCH /hey.txt HTTP/1.1"405 Self-Testing
+[2021-12-06 23:01:54,749]: 127.0.0.1:8889 "PATCH HTTP/1.1 hey.txt"405 
+[2021-12-06 23:01:54,752]: 127.0.0.1:8889 "HTTP/2.1  Version is not supported.
+[2021-12-06 23:01:54,752]: 127.0.0.1:8889 "GET /hey.txt HTTP/2.1"505 Self-Testing
+[2021-12-06 23:01:54,752]: 127.0.0.1:8889 "GET HTTP/2.1 hey.txt"505 
+[2021-12-06 23:01:54,755]: 127.0.0.1:8889 "file/get/uri_too_long/hello/world/file.txt 25 URI too long 
+[2021-12-06 23:01:54,755]: 127.0.0.1:8889 "GET /file/get/uri_too_long/hello/world/file.txt HTTP/1.1"414 Self-Testing
+[2021-12-06 23:01:54,755]: 127.0.0.1:8889 "GET HTTP/1.1 file/get/uri_too_long/hello/world/file.txt"414 
+[2021-12-06 23:04:12,315]: 127.0.0.1:8889 "hello.txt File Created Successfully.
+[2021-12-06 23:04:12,315]: 127.0.0.1:8889 "PUT /hello.txt HTTP/1.1"201 Self_Testing 
+[2021-12-06 23:04:12,315]: 127.0.0.1:8889 "PUT HTTP/1.1 hello.txt"201 
+[2021-12-06 23:04:12,318]: 127.0.0.1:8889 "world.txt File Created Successfully.
+[2021-12-06 23:04:12,318]: 127.0.0.1:8889 "POST /world.txt HTTP/1.1"201 Self_Testing 
+[2021-12-06 23:04:12,319]: 127.0.0.1:8889 "POST HTTP/1.1 world.txt"201 
+[2021-12-06 23:04:12,322]: 127.0.0.1:8889 "hello.txt Accessed Successfully.
+[2021-12-06 23:04:12,322]: 127.0.0.1:8889 "GET /hello.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 23:04:12,323]: 127.0.0.1:8889 "GET HTTP/1.1 hello.txt"200 
+[2021-12-06 23:04:12,325]: 127.0.0.1:8889 "world.txt Head Successful.
+[2021-12-06 23:04:12,325]: 127.0.0.1:8889 "HEAD /world.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 23:04:12,325]: 127.0.0.1:8889 "HEAD HTTP/1.1 world.txt"200 
+[2021-12-06 23:04:12,328]: 127.0.0.1:8889 "world.txt File Deleted Successfully. 
+[2021-12-06 23:04:12,329]: 127.0.0.1:8889 "DELETE /world.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 23:04:12,329]: 127.0.0.1:8889 "DELETE HTTP/1.1 world.txt"200 
+[2021-12-06 23:04:12,332]: 127.0.0.1:8889 "hello.txt Incorrect Username or Password
+[2021-12-06 23:04:12,332]: 127.0.0.1:8889 "DELETE /hello.txt HTTP/1.1"401 Self-Testing
+[2021-12-06 23:04:12,333]: 127.0.0.1:8889 "DELETE HTTP/1.1 hello.txt"401 
+[2021-12-06 23:04:12,333]: 127.0.0.1:8889 "20 Max requests Limit reached Now service is Unavailable.
+[2021-12-06 23:05:06,466]: 127.0.0.1:8888 "hello.txt File Modified Successfully.
+[2021-12-06 23:05:06,466]: 127.0.0.1:8888 "PUT /hello.txt HTTP/1.1"200 Self_Testing 
+[2021-12-06 23:05:06,466]: 127.0.0.1:8888 "PUT HTTP/1.1 hello.txt"200 
+[2021-12-06 23:05:06,467]: 127.0.0.1:8888 "world.txt File Created Successfully.
+[2021-12-06 23:05:06,467]: 127.0.0.1:8888 "POST /world.txt HTTP/1.1"201 Self_Testing 
+[2021-12-06 23:05:06,467]: 127.0.0.1:8888 "POST HTTP/1.1 world.txt"201 
+[2021-12-06 23:05:06,470]: 127.0.0.1:8888 "hello.txt Accessed Successfully.
+[2021-12-06 23:05:06,470]: 127.0.0.1:8888 "GET /hello.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 23:05:06,470]: 127.0.0.1:8888 "GET HTTP/1.1 hello.txt"200 
+[2021-12-06 23:05:06,472]: 127.0.0.1:8888 "world.txt Head Successful.
+[2021-12-06 23:05:06,472]: 127.0.0.1:8888 "HEAD /world.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 23:05:06,472]: 127.0.0.1:8888 "HEAD HTTP/1.1 world.txt"200 
+[2021-12-06 23:05:06,475]: 127.0.0.1:8888 "world.txt File Deleted Successfully. 
+[2021-12-06 23:05:06,475]: 127.0.0.1:8888 "DELETE /world.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 23:05:06,475]: 127.0.0.1:8888 "DELETE HTTP/1.1 world.txt"200 
+[2021-12-06 23:05:06,476]: 127.0.0.1:8888 "hello.txt Incorrect Username or Password
+[2021-12-06 23:05:06,476]: 127.0.0.1:8888 "DELETE /hello.txt HTTP/1.1"401 Self-Testing
+[2021-12-06 23:05:06,477]: 127.0.0.1:8888 "DELETE HTTP/1.1 hello.txt"401 
+[2021-12-06 23:05:06,478]: 127.0.0.1:8888 "Requested File hello.txt was Forbidden
+[2021-12-06 23:05:06,479]: 127.0.0.1:8888 "GET /hello.txt HTTP/1.1"403 Self-Testing 
+[2021-12-06 23:05:06,479]: 127.0.0.1:8888 "GET HTTP/1.1 hello.txt"403 
+[2021-12-06 23:05:06,481]: 127.0.0.1:8888 "hello.txt File Deleted Successfully. 
+[2021-12-06 23:05:06,481]: 127.0.0.1:8888 "DELETE /hello.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 23:05:06,482]: 127.0.0.1:8888 "DELETE HTTP/1.1 hello.txt"200 
+[2021-12-06 23:05:06,483]: 127.0.0.1:8888 "any.py This File format is not supported 
+[2021-12-06 23:05:06,483]: 127.0.0.1:8888 "GET /any.py HTTP/1.1"415 Self-Testing
+[2021-12-06 23:05:06,484]: 127.0.0.1:8888 "GET HTTP/1.1 any.py"415 
+[2021-12-06 23:05:06,485]: 127.0.0.1:8888 "PATCH  Method is Not Allowed.
+[2021-12-06 23:05:06,486]: 127.0.0.1:8888 "PATCH /hey.txt HTTP/1.1"405 Self-Testing
+[2021-12-06 23:05:06,486]: 127.0.0.1:8888 "PATCH HTTP/1.1 hey.txt"405 
+[2021-12-06 23:05:06,487]: 127.0.0.1:8888 "HTTP/2.1  Version is not supported.
+[2021-12-06 23:05:06,488]: 127.0.0.1:8888 "GET /hey.txt HTTP/2.1"505 Self-Testing
+[2021-12-06 23:05:06,488]: 127.0.0.1:8888 "GET HTTP/2.1 hey.txt"505 
+[2021-12-06 23:05:06,491]: 127.0.0.1:8888 "file/get/uri_too_long/hello/world/file.txt 25 URI too long 
+[2021-12-06 23:05:06,492]: 127.0.0.1:8888 "GET /file/get/uri_too_long/hello/world/file.txt HTTP/1.1"414 Self-Testing
+[2021-12-06 23:05:06,492]: 127.0.0.1:8888 "GET HTTP/1.1 file/get/uri_too_long/hello/world/file.txt"414 
+[2021-12-06 23:08:25,285]: 127.0.0.1:8888 "hello.txt File Created Successfully.
+[2021-12-06 23:08:25,286]: 127.0.0.1:8888 "PUT /hello.txt HTTP/1.1"201 Self_Testing 
+[2021-12-06 23:08:25,286]: 127.0.0.1:8888 "PUT HTTP/1.1 hello.txt"201 
+[2021-12-06 23:08:25,289]: 127.0.0.1:8888 "world.txt File Created Successfully.
+[2021-12-06 23:08:25,290]: 127.0.0.1:8888 "POST /world.txt HTTP/1.1"201 Self_Testing 
+[2021-12-06 23:08:25,290]: 127.0.0.1:8888 "POST HTTP/1.1 world.txt"201 
+[2021-12-06 23:08:25,295]: 127.0.0.1:8888 "hello.txt Accessed Successfully.
+[2021-12-06 23:08:25,295]: 127.0.0.1:8888 "GET /hello.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 23:08:25,295]: 127.0.0.1:8888 "GET HTTP/1.1 hello.txt"200 
+[2021-12-06 23:08:25,298]: 127.0.0.1:8888 "world.txt Head Successful.
+[2021-12-06 23:08:25,299]: 127.0.0.1:8888 "HEAD /world.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 23:08:25,299]: 127.0.0.1:8888 "HEAD HTTP/1.1 world.txt"200 
+[2021-12-06 23:08:25,304]: 127.0.0.1:8888 "world.txt File Deleted Successfully. 
+[2021-12-06 23:08:25,304]: 127.0.0.1:8888 "DELETE /world.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 23:08:25,304]: 127.0.0.1:8888 "DELETE HTTP/1.1 world.txt"200 
+[2021-12-06 23:08:25,307]: 127.0.0.1:8888 "hello.txt Incorrect Username or Password
+[2021-12-06 23:08:25,307]: 127.0.0.1:8888 "DELETE /hello.txt HTTP/1.1"401 Self-Testing
+[2021-12-06 23:08:25,308]: 127.0.0.1:8888 "DELETE HTTP/1.1 hello.txt"401 
+[2021-12-06 23:08:25,314]: 127.0.0.1:8888 "Requested File hello.txt was Forbidden
+[2021-12-06 23:08:25,315]: 127.0.0.1:8888 "GET /hello.txt HTTP/1.1"403 Self-Testing 
+[2021-12-06 23:08:25,315]: 127.0.0.1:8888 "GET HTTP/1.1 hello.txt"403 
+[2021-12-06 23:08:25,319]: 127.0.0.1:8888 "hello.txt File Deleted Successfully. 
+[2021-12-06 23:08:25,320]: 127.0.0.1:8888 "DELETE /hello.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 23:08:25,324]: 127.0.0.1:8888 "DELETE HTTP/1.1 hello.txt"200 
+[2021-12-06 23:08:25,326]: 127.0.0.1:8888 "any.py This File format is not supported 
+[2021-12-06 23:08:25,328]: 127.0.0.1:8888 "GET /any.py HTTP/1.1"415 Self-Testing
+[2021-12-06 23:08:25,328]: 127.0.0.1:8888 "GET HTTP/1.1 any.py"415 
+[2021-12-06 23:08:25,330]: 127.0.0.1:8888 "PATCH  Method is Not Allowed.
+[2021-12-06 23:08:25,330]: 127.0.0.1:8888 "PATCH /hey.txt HTTP/1.1"405 Self-Testing
+[2021-12-06 23:08:25,331]: 127.0.0.1:8888 "PATCH HTTP/1.1 hey.txt"405 
+[2021-12-06 23:08:25,333]: 127.0.0.1:8888 "HTTP/2.1  Version is not supported.
+[2021-12-06 23:08:25,334]: 127.0.0.1:8888 "GET /hey.txt HTTP/2.1"505 Self-Testing
+[2021-12-06 23:08:25,334]: 127.0.0.1:8888 "GET HTTP/2.1 hey.txt"505 
+[2021-12-06 23:08:25,337]: 127.0.0.1:8888 "file/get/uri_too_long/hello/world/file.txt 25 URI too long 
+[2021-12-06 23:08:25,338]: 127.0.0.1:8888 "GET /file/get/uri_too_long/hello/world/file.txt HTTP/1.1"414 Self-Testing
+[2021-12-06 23:08:25,338]: 127.0.0.1:8888 "GET HTTP/1.1 file/get/uri_too_long/hello/world/file.txt"414 
+[2021-12-06 23:08:51,727]: 127.0.0.1:8888 "hello.txt File Created Successfully.
+[2021-12-06 23:08:51,727]: 127.0.0.1:8888 "PUT /hello.txt HTTP/1.1"201 Self_Testing 
+[2021-12-06 23:08:51,728]: 127.0.0.1:8888 "PUT HTTP/1.1 hello.txt"201 
+[2021-12-06 23:08:51,730]: 127.0.0.1:8888 "world.txt File Created Successfully.
+[2021-12-06 23:08:51,732]: 127.0.0.1:8888 "POST /world.txt HTTP/1.1"201 Self_Testing 
+[2021-12-06 23:08:51,732]: 127.0.0.1:8888 "POST HTTP/1.1 world.txt"201 
+[2021-12-06 23:08:51,739]: 127.0.0.1:8888 "hello.txt Accessed Successfully.
+[2021-12-06 23:08:51,739]: 127.0.0.1:8888 "GET /hello.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 23:08:51,740]: 127.0.0.1:8888 "GET HTTP/1.1 hello.txt"200 
+[2021-12-06 23:08:51,743]: 127.0.0.1:8888 "world.txt Head Successful.
+[2021-12-06 23:08:51,744]: 127.0.0.1:8888 "HEAD /world.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 23:08:51,745]: 127.0.0.1:8888 "HEAD HTTP/1.1 world.txt"200 
+[2021-12-06 23:08:51,753]: 127.0.0.1:8888 "world.txt File Deleted Successfully. 
+[2021-12-06 23:08:51,755]: 127.0.0.1:8888 "DELETE /world.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 23:08:51,756]: 127.0.0.1:8888 "DELETE HTTP/1.1 world.txt"200 
+[2021-12-06 23:08:51,763]: 127.0.0.1:8888 "hello.txt Incorrect Username or Password
+[2021-12-06 23:08:51,764]: 127.0.0.1:8888 "DELETE /hello.txt HTTP/1.1"401 Self-Testing
+[2021-12-06 23:08:51,764]: 127.0.0.1:8888 "DELETE HTTP/1.1 hello.txt"401 
+[2021-12-06 23:08:51,769]: 127.0.0.1:8888 "Requested File hello.txt was Forbidden
+[2021-12-06 23:08:51,771]: 127.0.0.1:8888 "GET /hello.txt HTTP/1.1"403 Self-Testing 
+[2021-12-06 23:08:51,772]: 127.0.0.1:8888 "GET HTTP/1.1 hello.txt"403 
+[2021-12-06 23:08:51,777]: 127.0.0.1:8888 "hello.txt File Deleted Successfully. 
+[2021-12-06 23:08:51,777]: 127.0.0.1:8888 "DELETE /hello.txt HTTP/1.1"200 Self-Testing 
+[2021-12-06 23:08:51,777]: 127.0.0.1:8888 "DELETE HTTP/1.1 hello.txt"200 
+[2021-12-06 23:08:51,782]: 127.0.0.1:8888 "any.py This File format is not supported 
+[2021-12-06 23:08:51,785]: 127.0.0.1:8888 "GET /any.py HTTP/1.1"415 Self-Testing
+[2021-12-06 23:08:51,786]: 127.0.0.1:8888 "GET HTTP/1.1 any.py"415 
+[2021-12-06 23:08:51,788]: 127.0.0.1:8888 "PATCH  Method is Not Allowed.
+[2021-12-06 23:08:51,788]: 127.0.0.1:8888 "PATCH /hey.txt HTTP/1.1"405 Self-Testing
+[2021-12-06 23:08:51,790]: 127.0.0.1:8888 "PATCH HTTP/1.1 hey.txt"405 
+[2021-12-06 23:08:51,793]: 127.0.0.1:8888 "HTTP/2.1  Version is not supported.
+[2021-12-06 23:08:51,793]: 127.0.0.1:8888 "GET /hey.txt HTTP/2.1"505 Self-Testing
+[2021-12-06 23:08:51,793]: 127.0.0.1:8888 "GET HTTP/2.1 hey.txt"505 
+[2021-12-06 23:08:51,798]: 127.0.0.1:8888 "file/get/uri_too_long/hello/world/file.txt 25 URI too long 
+[2021-12-06 23:08:51,798]: 127.0.0.1:8888 "GET /file/get/uri_too_long/hello/world/file.txt HTTP/1.1"414 Self-Testing
+[2021-12-06 23:08:51,799]: 127.0.0.1:8888 "GET HTTP/1.1 file/get/uri_too_long/hello/world/file.txt"414 
